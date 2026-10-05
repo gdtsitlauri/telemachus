@@ -1,0 +1,584 @@
+{
+  "by_scenario": {
+    "budget_voi": {
+      "compound": {
+        "collision": 0.15,
+        "cost": 65.82375,
+        "deferred": 0.125,
+        "success": 0.725
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 52.49874999999999,
+        "deferred": 0.2125,
+        "success": 0.7875
+      },
+      "localization": {
+        "collision": 0.125,
+        "cost": 54.63130000000001,
+        "deferred": 0.0875,
+        "success": 0.7875
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 24.76475,
+        "deferred": 0.0125,
+        "success": 0.9875
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 24.888749999999995,
+        "deferred": 0.0125,
+        "success": 0.9875
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 98.94415,
+        "deferred": 0.4875,
+        "success": 0.5125
+      }
+    },
+    "confidence_gate": {
+      "compound": {
+        "collision": 0.1375,
+        "cost": 64.80735000000001,
+        "deferred": 0.1375,
+        "success": 0.725
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 47.984399999999994,
+        "deferred": 0.1625,
+        "success": 0.8375
+      },
+      "localization": {
+        "collision": 0.025,
+        "cost": 56.678250000000006,
+        "deferred": 0.125,
+        "success": 0.85
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 24.7062,
+        "deferred": 0.025,
+        "success": 0.975
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 24.7062,
+        "deferred": 0.025,
+        "success": 0.975
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 88.0779,
+        "deferred": 0.3125,
+        "success": 0.6875
+      }
+    },
+    "no_expert": {
+      "compound": {
+        "collision": 0.0875,
+        "cost": 59.04665,
+        "deferred": 0.1375,
+        "success": 0.775
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 47.067599999999985,
+        "deferred": 0.175,
+        "success": 0.825
+      },
+      "localization": {
+        "collision": 0.0625,
+        "cost": 41.9238,
+        "deferred": 0.0375,
+        "success": 0.9
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 22.795749999999998,
+        "deferred": 0.0,
+        "success": 1.0
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 23.204249999999995,
+        "deferred": 0.0,
+        "success": 1.0
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 62.528949999999995,
+        "deferred": 0.1,
+        "success": 0.9
+      }
+    },
+    "no_learning": {
+      "compound": {
+        "collision": 0.1625,
+        "cost": 57.9615,
+        "deferred": 0.15,
+        "success": 0.6875
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 44.22589999999998,
+        "deferred": 0.1625,
+        "success": 0.8375
+      },
+      "localization": {
+        "collision": 0.025,
+        "cost": 49.8806,
+        "deferred": 0.125,
+        "success": 0.85
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 24.298199999999998,
+        "deferred": 0.025,
+        "success": 0.975
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 24.298199999999998,
+        "deferred": 0.025,
+        "success": 0.975
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 90.49924999999999,
+        "deferred": 0.35,
+        "success": 0.65
+      }
+    },
+    "telemachus": {
+      "compound": {
+        "collision": 0.0875,
+        "cost": 59.0169,
+        "deferred": 0.1,
+        "success": 0.8125
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 47.428699999999985,
+        "deferred": 0.15,
+        "success": 0.85
+      },
+      "localization": {
+        "collision": 0.0625,
+        "cost": 42.294250000000005,
+        "deferred": 0.0375,
+        "success": 0.9
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 22.795749999999998,
+        "deferred": 0.0,
+        "success": 1.0
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 23.204249999999995,
+        "deferred": 0.0,
+        "success": 1.0
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 62.720349999999996,
+        "deferred": 0.1,
+        "success": 0.9
+      }
+    }
+  },
+  "certificate_hash": "f23b14885908a2dde3df85623da7a7ae1f42499157d9d62106f6b65ce541a47e",
+  "certified_methods": {
+    "budget_voi": {
+      "certified": true,
+      "collision_ci95": [
+        0.028943062227162843,
+        0.06857231219378636
+      ],
+      "collision_rate": 0.04583333333333333,
+      "collisions": 22,
+      "cost_mean": 53.59190833333333,
+      "cost_per_success": 67.16479373368146,
+      "deferred": 0.15625,
+      "empirical_rate_within_alpha": false,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "success": 0.7979166666666667
+    },
+    "confidence_gate": {
+      "certified": true,
+      "collision_ci95": [
+        0.014497834757211213,
+        0.0458680620889895
+      ],
+      "collision_rate": 0.027083333333333334,
+      "collisions": 13,
+      "cost_mean": 51.16005,
+      "cost_per_success": 60.78421782178218,
+      "deferred": 0.13125,
+      "empirical_rate_within_alpha": true,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "success": 0.8416666666666667
+    },
+    "no_expert": {
+      "certified": true,
+      "collision_ci95": [
+        0.012983091511373815,
+        0.04326247570846205
+      ],
+      "collision_rate": 0.025,
+      "collisions": 12,
+      "cost_mean": 42.76116666666666,
+      "cost_per_success": 47.5124074074074,
+      "deferred": 0.075,
+      "empirical_rate_within_alpha": true,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "success": 0.9
+    },
+    "no_learning": {
+      "certified": true,
+      "collision_ci95": [
+        0.017593750188650156,
+        0.05101887611740652
+      ],
+      "collision_rate": 0.03125,
+      "collisions": 15,
+      "cost_mean": 48.527274999999996,
+      "cost_per_success": 58.52535678391959,
+      "deferred": 0.13958333333333334,
+      "empirical_rate_within_alpha": false,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "success": 0.8291666666666667
+    },
+    "telemachus": {
+      "certified": true,
+      "collision_ci95": [
+        0.012983091511373815,
+        0.04326247570846205
+      ],
+      "collision_rate": 0.025,
+      "collisions": 12,
+      "cost_mean": 42.91003333333333,
+      "cost_per_success": 47.13230205949657,
+      "deferred": 0.06458333333333334,
+      "empirical_rate_within_alpha": true,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "success": 0.9104166666666667
+    }
+  },
+  "created": "2026-10-04T00:43:28.040379+00:00",
+  "interpretation": "Each method runs at its own Learn-then-Test safety setting, so success, deferral and cost are compared at the same certified collision level alpha.",
+  "methods": {
+    "budget_voi": {
+      "collision": 0.04583333333333333,
+      "collision_ci95_wilson": [
+        0.03045979395060108,
+        0.0684185843870097
+      ],
+      "cost_mean": 53.59190833333333,
+      "cost_per_success": 67.16479373368146,
+      "deferred": 0.15625,
+      "deferred_ci95_wilson": [
+        0.1265113748359063,
+        0.19144703078659725
+      ],
+      "expert_queries_mean": 0.0,
+      "logical_latency_ms_mean": 1526.9812666666685,
+      "mc_samples_mean": 8478.3,
+      "n": 480,
+      "observations_mean": 1.8958333333333333,
+      "probes_mean": 0.0,
+      "queries_mean": 2.8916666666666666,
+      "steps_mean": 75.77083333333333,
+      "success": 0.7979166666666667,
+      "success_ci95_wilson": [
+        0.759693241950164,
+        0.8314094731769998
+      ],
+      "wall_seconds_mean": 11.345715936666616
+    },
+    "confidence_gate": {
+      "collision": 0.027083333333333334,
+      "collision_ci95_wilson": [
+        0.015894750065827808,
+        0.045781359487555906
+      ],
+      "cost_mean": 51.16005,
+      "cost_per_success": 60.78421782178218,
+      "deferred": 0.13125,
+      "deferred_ci95_wilson": [
+        0.10394756709343944,
+        0.16440781348342803
+      ],
+      "expert_queries_mean": 0.0,
+      "logical_latency_ms_mean": 292.1775666666667,
+      "mc_samples_mean": 7983.2,
+      "n": 480,
+      "observations_mean": 3.6979166666666665,
+      "probes_mean": 0.0,
+      "queries_mean": 0.0,
+      "steps_mean": 75.94166666666666,
+      "success": 0.8416666666666667,
+      "success_ci95_wilson": [
+        0.8063134306424504,
+        0.8715945783145764
+      ],
+      "wall_seconds_mean": 11.539307333124832
+    },
+    "no_expert": {
+      "collision": 0.025,
+      "collision_ci95_wilson": [
+        0.014357806275901537,
+        0.0431847178570125
+      ],
+      "cost_mean": 42.76116666666666,
+      "cost_per_success": 47.5124074074074,
+      "deferred": 0.075,
+      "deferred_ci95_wilson": [
+        0.05466377124476657,
+        0.10208480297941969
+      ],
+      "expert_queries_mean": 0.0,
+      "logical_latency_ms_mean": 1142.4191666666675,
+      "mc_samples_mean": 5820.0,
+      "n": 480,
+      "observations_mean": 2.660416666666667,
+      "probes_mean": 0.06458333333333334,
+      "queries_mean": 2.15,
+      "steps_mean": 72.1625,
+      "success": 0.9,
+      "success_ci95_wilson": [
+        0.8699050506538495,
+        0.9237433500763281
+      ],
+      "wall_seconds_mean": 10.861699718541862
+    },
+    "no_learning": {
+      "collision": 0.03125,
+      "collision_ci95_wilson": [
+        0.019027784479138242,
+        0.05091549591518483
+      ],
+      "cost_mean": 48.527274999999996,
+      "cost_per_success": 58.52535678391959,
+      "deferred": 0.13958333333333334,
+      "deferred_ci95_wilson": [
+        0.11143323744849609,
+        0.17345648481025006
+      ],
+      "expert_queries_mean": 0.08125,
+      "logical_latency_ms_mean": 913.8171166666674,
+      "mc_samples_mean": 7076.6,
+      "n": 480,
+      "observations_mean": 2.875,
+      "probes_mean": 0.0,
+      "queries_mean": 1.4125,
+      "steps_mean": 76.97708333333334,
+      "success": 0.8291666666666667,
+      "success_ci95_wilson": [
+        0.7929161483396715,
+        0.8601903480945373
+      ],
+      "wall_seconds_mean": 11.344750283333346
+    },
+    "telemachus": {
+      "collision": 0.025,
+      "collision_ci95_wilson": [
+        0.014357806275901537,
+        0.0431847178570125
+      ],
+      "cost_mean": 42.91003333333333,
+      "cost_per_success": 47.13230205949657,
+      "deferred": 0.06458333333333334,
+      "deferred_ci95_wilson": [
+        0.04586839555141688,
+        0.09021225157042102
+      ],
+      "expert_queries_mean": 0.07916666666666666,
+      "logical_latency_ms_mean": 1160.5351416666676,
+      "mc_samples_mean": 5776.8,
+      "n": 480,
+      "observations_mean": 2.575,
+      "probes_mean": 0.06458333333333334,
+      "queries_mean": 2.127083333333333,
+      "steps_mean": 72.16875,
+      "success": 0.9104166666666667,
+      "success_ci95_wilson": [
+        0.8815037534796726,
+        0.9328125743528535
+      ],
+      "wall_seconds_mean": 11.355715823958219
+    }
+  },
+  "paired_comparisons": {
+    "budget_voi": {
+      "collision": {
+        "ci95": [
+          -0.0375,
+          -0.0020833333333333337
+        ],
+        "difference": -0.020833333333333332,
+        "n_seed_clusters": 80
+      },
+      "cost": {
+        "ci95": [
+          -12.533082291666666,
+          -8.894557083333336
+        ],
+        "difference": -10.681875000000002,
+        "n_seed_clusters": 80
+      },
+      "cost_on_joint_success": {
+        "ci95": [
+          -9.003772604166668,
+          -6.719781250000002
+        ],
+        "difference": -7.80440666666667,
+        "n_paired_episodes": 369,
+        "n_seed_clusters": 80,
+        "scope": "Selected subset where both methods succeed; not an unconditional efficiency estimand."
+      },
+      "success": {
+        "ci95": [
+          0.08125,
+          0.14375
+        ],
+        "difference": 0.1125,
+        "n_seed_clusters": 80
+      }
+    },
+    "confidence_gate": {
+      "collision": {
+        "ci95": [
+          -0.014583333333333332,
+          0.010416666666666666
+        ],
+        "difference": -0.0020833333333333337,
+        "n_seed_clusters": 80
+      },
+      "cost": {
+        "ci95": [
+          -10.048117291666669,
+          -6.603642083333337
+        ],
+        "difference": -8.25001666666667,
+        "n_seed_clusters": 80
+      },
+      "cost_on_joint_success": {
+        "ci95": [
+          -6.1866023750000005,
+          -3.5782762708333364
+        ],
+        "difference": -4.918936666666669,
+        "n_paired_episodes": 392,
+        "n_seed_clusters": 80,
+        "scope": "Selected subset where both methods succeed; not an unconditional efficiency estimand."
+      },
+      "success": {
+        "ci95": [
+          0.03744791666666668,
+          0.10213541666666687
+        ],
+        "difference": 0.06875,
+        "n_seed_clusters": 80
+      }
+    },
+    "no_expert": {
+      "collision": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "difference": 0.0,
+        "n_seed_clusters": 80
+      },
+      "cost": {
+        "ci95": [
+          -0.37132520833333305,
+          0.659505416666666
+        ],
+        "difference": 0.1488666666666664,
+        "n_seed_clusters": 80
+      },
+      "cost_on_joint_success": {
+        "ci95": [
+          -0.10675599999999993,
+          0.13890566666666657
+        ],
+        "difference": 0.032804999999999994,
+        "n_paired_episodes": 432,
+        "n_seed_clusters": 80,
+        "scope": "Selected subset where both methods succeed; not an unconditional efficiency estimand."
+      },
+      "success": {
+        "ci95": [
+          0.0020833333333333333,
+          0.020833333333333332
+        ],
+        "difference": 0.010416666666666666,
+        "n_seed_clusters": 80
+      }
+    },
+    "no_learning": {
+      "collision": {
+        "ci95": [
+          -0.01875,
+          0.00625
+        ],
+        "difference": -0.00625,
+        "n_seed_clusters": 80
+      },
+      "cost": {
+        "ci95": [
+          -7.738487916666664,
+          -3.695943749999998
+        ],
+        "difference": -5.617241666666663,
+        "n_seed_clusters": 80
+      },
+      "cost_on_joint_success": {
+        "ci95": [
+          -4.630408080168775,
+          -1.8909916244725735
+        ],
+        "difference": -3.29834852320675,
+        "n_paired_episodes": 384,
+        "n_seed_clusters": 79,
+        "scope": "Selected subset where both methods succeed; not an unconditional efficiency estimand."
+      },
+      "success": {
+        "ci95": [
+          0.04583333333333333,
+          0.11875
+        ],
+        "difference": 0.08124999999999999,
+        "n_seed_clusters": 80
+      }
+    }
+  },
+  "protocol_hash": "0d58b8e1bc4cbce3fceef94b3ec60a141cd42e72ad197ac3ccd35b28d3a17bec",
+  "split": "certified_stress"
+}

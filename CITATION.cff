@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "TELEMACHUS: Certified information acquisition and escalation in AI agents"
+type: software
+authors:
+  - given-names: "George David"
+    family-names: "Tsitlauri"
+date-released: 2026-10-01
+license: MIT
+repository-code: "https://github.com/gdtsitlauri/telemachus"
+abstract: >-
+  A framework and experiments for deciding when an AI agent should look, think, ask or act, with
+  Learn-then-Test risk guarantees across robot navigation, a multi-agent team, a language agent and a
+  vision-language model, plus a finite-horizon guarantee for online risk control with a stochastic fallback.
+keywords: [AI agents, risk control, Learn-then-Test, escalation, distribution shift]

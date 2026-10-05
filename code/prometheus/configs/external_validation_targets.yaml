@@ -1,0 +1,11 @@
+# Planning document only; these are not claimed as completed experiments.
+targets:
+  - benchmark: MEAL
+    purpose: long-horizon continual multi-agent RL
+    baselines: [IPPO, MAPPO, replay, EWC, LwF]
+  - benchmark: Continual NavBench
+    purpose: continual offline / imitation navigation
+    baselines: [BC, CQL_or_IQL, replay, benchmark_native_continual_methods]
+  - benchmark: MPE_or_SMAC
+    purpose: learned communication and coordination
+    baselines: [MAPPO, dense_GNN, sparse_communication, graph_contrastive_communication]

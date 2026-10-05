@@ -1,0 +1,35 @@
+version: 2.0.0
+freeze_date: 2026-09-27
+pilot_seeds: [0, 1, 2, 3, 4]
+heldout_seeds: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+environment:
+  n_agents: 3
+  grid_size: 7
+  horizon: 10
+  n_tasks: 6
+  cue_noise: 0.06
+  slip_prob: 0.04
+training:
+  hidden_dim: 64
+  lr: 0.0025
+  gamma: 0.96
+  gae_lambda: 0.92
+  clip_eps: 0.2
+  updates_per_task: 14
+  batch_episodes: 24
+  ppo_epochs: 2
+prometheus_budgeted:
+  communication: true
+  comm_top_k: 1
+  replay: true
+  memory_budget: 384
+  ewc: false
+  active_query: true
+  query_budget_per_task: 16
+  query_entropy_threshold: 1.0
+  query_coef: 0.5
+  ssl: true
+  ssl_steps: 30
+  behavior_cloning_warmstart: true
+  bc_steps: 35
+selection_statement: "Main configuration selected on pilot seeds 0-4 and frozen before primary held-out seeds 5-24."

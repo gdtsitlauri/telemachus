@@ -1,0 +1,221 @@
+{
+  "by_scenario": {
+    "no_reserve": {
+      "compound": {
+        "collision": 0.0,
+        "cost": 38.8008,
+        "deferred": 0.9625,
+        "success": 0.0375
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 35.78724999999999,
+        "deferred": 0.4375,
+        "success": 0.5625
+      },
+      "localization": {
+        "collision": 0.0125,
+        "cost": 38.661950000000004,
+        "deferred": 0.7875,
+        "success": 0.2
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 27.438399999999994,
+        "deferred": 0.1875,
+        "success": 0.8125
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 27.311199999999996,
+        "deferred": 0.175,
+        "success": 0.825
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 38.03735,
+        "deferred": 0.5875,
+        "success": 0.4125
+      }
+    },
+    "telemachus": {
+      "compound": {
+        "collision": 0.0,
+        "cost": 38.767450000000004,
+        "deferred": 0.9625,
+        "success": 0.0375
+      },
+      "dynamics": {
+        "collision": 0.0,
+        "cost": 35.784499999999994,
+        "deferred": 0.4375,
+        "success": 0.5625
+      },
+      "localization": {
+        "collision": 0.0125,
+        "cost": 38.66740000000001,
+        "deferred": 0.7875,
+        "success": 0.2
+      },
+      "nominal": {
+        "collision": 0.0,
+        "cost": 27.435999999999996,
+        "deferred": 0.1875,
+        "success": 0.8125
+      },
+      "radio": {
+        "collision": 0.0,
+        "cost": 27.306549999999998,
+        "deferred": 0.175,
+        "success": 0.825
+      },
+      "visual": {
+        "collision": 0.0,
+        "cost": 38.03840000000001,
+        "deferred": 0.5875,
+        "success": 0.4125
+      }
+    }
+  },
+  "certificate_hash": "b30ae6a1525a377c869f63ebb25edab21063cf434af1294b5acc39216441f1f6",
+  "certified_methods": {
+    "no_reserve": {
+      "certified": true,
+      "collision_ci95": [
+        5.2744042284693605e-05,
+        0.01155246415879794
+      ],
+      "collision_rate": 0.0020833333333333333,
+      "collisions": 1,
+      "cost_mean": 34.33949166666667,
+      "cost_per_success": 72.29366666666668,
+      "deferred": 0.5229166666666667,
+      "empirical_rate_within_alpha": true,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.08
+      },
+      "success": 0.475
+    },
+    "telemachus": {
+      "certified": true,
+      "collision_ci95": [
+        5.2744042284693605e-05,
+        0.01155246415879794
+      ],
+      "collision_rate": 0.0020833333333333333,
+      "collisions": 1,
+      "cost_mean": 34.33338333333334,
+      "cost_per_success": 72.28080701754386,
+      "deferred": 0.5229166666666667,
+      "empirical_rate_within_alpha": true,
+      "guarantee_alpha": 0.03,
+      "n": 480,
+      "setting": {
+        "safety_margin": 0.08
+      },
+      "success": 0.475
+    }
+  },
+  "created": "2026-10-04T01:19:09.122083+00:00",
+  "interpretation": "Each method runs at its own Learn-then-Test safety setting, so success, deferral and cost are compared at the same certified collision level alpha.",
+  "methods": {
+    "no_reserve": {
+      "collision": 0.0020833333333333333,
+      "collision_ci95_wilson": [
+        0.0003678542013804192,
+        0.011705230306367193
+      ],
+      "cost_mean": 34.33949166666667,
+      "cost_per_success": 72.29366666666668,
+      "deferred": 0.5229166666666667,
+      "deferred_ci95_wilson": [
+        0.4782292340712601,
+        0.5672402055539063
+      ],
+      "expert_queries_mean": 0.06875,
+      "logical_latency_ms_mean": 1030.5631416666672,
+      "mc_samples_mean": 4495.8,
+      "n": 480,
+      "observations_mean": 2.40625,
+      "probes_mean": 0.04583333333333333,
+      "queries_mean": 1.91875,
+      "steps_mean": 55.920833333333334,
+      "success": 0.475,
+      "success_ci95_wilson": [
+        0.43070183611813545,
+        0.5196951388362284
+      ],
+      "wall_seconds_mean": 5.872238913750047
+    },
+    "telemachus": {
+      "collision": 0.0020833333333333333,
+      "collision_ci95_wilson": [
+        0.0003678542013804192,
+        0.011705230306367193
+      ],
+      "cost_mean": 34.33338333333334,
+      "cost_per_success": 72.28080701754386,
+      "deferred": 0.5229166666666667,
+      "deferred_ci95_wilson": [
+        0.4782292340712601,
+        0.5672402055539063
+      ],
+      "expert_queries_mean": 0.06875,
+      "logical_latency_ms_mean": 1018.4903166666671,
+      "mc_samples_mean": 4570.2,
+      "n": 480,
+      "observations_mean": 2.2645833333333334,
+      "probes_mean": 0.04583333333333333,
+      "queries_mean": 1.8958333333333333,
+      "steps_mean": 55.55625,
+      "success": 0.475,
+      "success_ci95_wilson": [
+        0.43070183611813545,
+        0.5196951388362284
+      ],
+      "wall_seconds_mean": 8.881382741666705
+    }
+  },
+  "paired_comparisons": {
+    "no_reserve": {
+      "collision": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "difference": 0.0,
+        "n_seed_clusters": 80
+      },
+      "cost": {
+        "ci95": [
+          -0.02519333333333299,
+          0.011500416666666955
+        ],
+        "difference": -0.006108333333333043,
+        "n_seed_clusters": 80
+      },
+      "cost_on_joint_success": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "difference": 0.0,
+        "n_paired_episodes": 228,
+        "n_seed_clusters": 73,
+        "scope": "Selected subset where both methods succeed; not an unconditional efficiency estimand."
+      },
+      "success": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "difference": 0.0,
+        "n_seed_clusters": 80
+      }
+    }
+  },
+  "protocol_hash": "5082527d2fa93e71d007f4cc5e1c6693c1c3070bafaa27e37d44ec134e14ba7a",
+  "split": "certified"
+}

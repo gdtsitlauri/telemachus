@@ -1,0 +1,108 @@
+{
+  "fixed_certified": {
+    "alpha_0.3": {
+      "candidates": [
+        {
+          "stage": "ANSWER",
+          "cal_error": 0.8483333333333334,
+          "cal_cost": 4.341666666666667,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "THINK",
+          "cal_error": 0.155,
+          "cal_cost": 184.42833333333334,
+          "p_value": 1.2931277800960855e-16,
+          "certified": true
+        },
+        {
+          "stage": "TOOL",
+          "cal_error": 0.43166666666666664,
+          "cal_cost": 70.59666666666666,
+          "p_value": 0.9999999999964788,
+          "certified": false
+        },
+        {
+          "stage": "VOTE",
+          "cal_error": 0.13666666666666666,
+          "cal_cost": 562.8233333333334,
+          "p_value": 4.932852323311641e-21,
+          "certified": true
+        }
+      ],
+      "selected": "THINK",
+      "test": {
+        "error": 0.1627260083449235,
+        "cost": 188.547983310153,
+        "n": 719,
+        "within_alpha": true
+      }
+    },
+    "alpha_0.2": {
+      "candidates": [
+        {
+          "stage": "ANSWER",
+          "cal_error": 0.8483333333333334,
+          "cal_cost": 4.341666666666667,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "THINK",
+          "cal_error": 0.155,
+          "cal_cost": 184.42833333333334,
+          "p_value": 0.002740097330223696,
+          "certified": true
+        },
+        {
+          "stage": "TOOL",
+          "cal_error": 0.43166666666666664,
+          "cal_cost": 70.59666666666666,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "VOTE",
+          "cal_error": 0.13666666666666666,
+          "cal_cost": 562.8233333333334,
+          "p_value": 3.266451570805889e-05,
+          "certified": true
+        }
+      ],
+      "selected": "THINK",
+      "test": {
+        "error": 0.1627260083449235,
+        "cost": 188.547983310153,
+        "n": 719,
+        "within_alpha": true
+      }
+    }
+  },
+  "stage_auc_test": {
+    "ANSWER": {
+      "n": 719,
+      "accuracy": 0.14881780250347706,
+      "confidence": 0.7153808563924012,
+      "learned": 0.6841747602467778
+    },
+    "THINK": {
+      "n": 719,
+      "accuracy": 0.8372739916550765,
+      "confidence": 0.7848908197745407,
+      "learned": 0.7812988045546185
+    },
+    "TOOL": {
+      "n": 699,
+      "accuracy": 0.6051502145922747,
+      "confidence": 0.753528968376332,
+      "learned": 0.9550099359303799
+    },
+    "VOTE": {
+      "n": 719,
+      "accuracy": 0.8553546592489569,
+      "confidence": 0.9106160100062539,
+      "learned": 0.8925656660412756
+    }
+  }
+}

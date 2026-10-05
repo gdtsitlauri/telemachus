@@ -1,0 +1,107 @@
+{
+  "protocol": {
+    "version": "3.2.0",
+    "freeze_date": "2026-10-04",
+    "study": "finite-horizon high-probability online help control under deployment shift (TELEMACHUS docs/online_guarantee.md, Theorem B)",
+    "pilot_seeds_used_for_design": [
+      0
+    ],
+    "heldout_seeds": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "method": "prometheus_v2_budgeted",
+    "gate": "learned (DAgger, trained on the nominal world only)",
+    "guarantee": {
+      "alpha": 0.1,
+      "delta": 0.1
+    },
+    "shift": {
+      "cue_noise": 1.0,
+      "slip_prob": 0.04
+    },
+    "fallback": {
+      "action": "full help (theta <= 0)",
+      "declared_p0": 0.08
+    },
+    "p0_source": "declared before held-out runs; nominal full-help failure in certified_help runs was <= 0.074 per seed; the earlier shift study measured full-help failure 0.056-0.075 on these seeds",
+    "online_update": {
+      "rule": "theta <- min(1.01, theta - eta * (chunk_failure - alpha_star)), no lower clip",
+      "eta": 1.0
+    },
+    "deployment": {
+      "chunks": 1200,
+      "episodes_per_task_per_chunk": 1
+    },
+    "alpha_star": "solved per seed before deployment from (alpha, delta, p0, n, K, eta, theta_nominal)",
+    "also_measured": "gate AUC (entropy, margin, learned) for a wrong own action on held-out seeds, nominal and shifted worlds",
+    "selection_statement": "p0, eta and K were set from feasibility of alpha* only (no held-out outcomes of this rule were seen).",
+    "sensitivity_analysis": "eta overridden from the frozen value; not the primary result"
+  },
+  "summary": {
+    "n_seeds": 20,
+    "n_run": 19,
+    "alpha_star_mean": 0.09229803788034541,
+    "online_hp": {
+      "failure_mean": 0.09257310193554873,
+      "failure_max": 0.09305555809289218,
+      "seeds_failure_le_alpha": 19,
+      "queries_mean": 23.45595029475396,
+      "fallback_fraction_mean": 0.22947368421052627
+    },
+    "full_help": {
+      "failure_mean": 0.06338450391041606,
+      "failure_max": 0.06666667014360428,
+      "seeds_le_p0": 19,
+      "queries_mean": 30.0
+    },
+    "auc": {
+      "auc_nominal": {
+        "entropy": {
+          "mean": 0.3644174267887461,
+          "sd": 0.06405261030061885
+        },
+        "margin": {
+          "mean": 0.3721280119888826,
+          "sd": 0.06982319780583181
+        },
+        "learned": {
+          "mean": 0.9776444012239154,
+          "sd": 0.009620154208934261
+        }
+      },
+      "auc_shift": {
+        "entropy": {
+          "mean": 0.3581516764854682,
+          "sd": 0.04713705119426344
+        },
+        "margin": {
+          "mean": 0.3610275256087361,
+          "sd": 0.04557513578474836
+        },
+        "learned": {
+          "mean": 0.9258310673880186,
+          "sd": 0.016906778548457655
+        }
+      }
+    }
+  }
+}

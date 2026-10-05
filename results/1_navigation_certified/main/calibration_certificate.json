@@ -1,0 +1,332 @@
+{
+  "alpha": 0.03,
+  "base_config_hash": "84c1fc5c132b22c84733564e6fcab8a808ef186b176a1706886bd378d1062b1c",
+  "calibration_seeds": [
+    30000,
+    30001,
+    30002,
+    30003,
+    30004,
+    30005,
+    30006,
+    30007,
+    30008,
+    30009,
+    30010,
+    30011,
+    30012,
+    30013,
+    30014,
+    30015,
+    30016,
+    30017,
+    30018,
+    30019,
+    30020,
+    30021,
+    30022,
+    30023,
+    30024,
+    30025,
+    30026,
+    30027,
+    30028,
+    30029,
+    30030,
+    30031,
+    30032,
+    30033,
+    30034,
+    30035,
+    30036,
+    30037,
+    30038,
+    30039,
+    30040,
+    30041,
+    30042,
+    30043,
+    30044,
+    30045,
+    30046,
+    30047,
+    30048,
+    30049,
+    30050,
+    30051,
+    30052,
+    30053,
+    30054,
+    30055,
+    30056,
+    30057,
+    30058,
+    30059
+  ],
+  "certificate_hash": "f23b14885908a2dde3df85623da7a7ae1f42499157d9d62106f6b65ce541a47e",
+  "created": "2026-10-03T21:56:28.575378+00:00",
+  "delta": 0.1,
+  "grid": [
+    {
+      "safety_margin": 0.08
+    },
+    {
+      "safety_margin": 0.04
+    },
+    {
+      "safety_margin": 0.02
+    },
+    {
+      "safety_margin": 0.0
+    }
+  ],
+  "method": "Learn-then-Test, fixed-sequence, exact binomial p-values",
+  "methods": {
+    "budget_voi": {
+      "alpha": 0.03,
+      "candidates": [
+        {
+          "collisions": 1,
+          "cost_mean": 57.882688888888886,
+          "deferred": 0.24722222222222223,
+          "n": 360,
+          "p_value": 0.00020981139166542266,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.08
+          },
+          "success": 0.75
+        },
+        {
+          "collisions": 4,
+          "cost_mean": 43.2944,
+          "deferred": 0.075,
+          "n": 360,
+          "p_value": 0.016111466297961955,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.04
+          },
+          "success": 0.9138888888888889
+        },
+        {
+          "collisions": 10,
+          "cost_mean": 38.85814444444445,
+          "deferred": 0.03611111111111111,
+          "n": 360,
+          "p_value": 0.4824888808622484,
+          "rejected": false,
+          "setting": {
+            "safety_margin": 0.02
+          },
+          "success": 0.9361111111111111
+        }
+      ],
+      "delta": 0.1,
+      "guarantee": "With probability >= 0.90 over the calibration episodes, the per-episode collision probability of 'budget_voi' at the selected setting is <= 0.03 for episodes exchangeable with the calibration episodes (same scenario generator and split).",
+      "method": "budget_voi",
+      "no_certificate": false,
+      "selected_index": 1,
+      "selected_setting": {
+        "safety_margin": 0.04
+      }
+    },
+    "confidence_gate": {
+      "alpha": 0.03,
+      "candidates": [
+        {
+          "collisions": 0,
+          "cost_mean": 54.8018,
+          "deferred": 0.225,
+          "n": 360,
+          "p_value": 1.7291168217116578e-05,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.08
+          },
+          "success": 0.775
+        },
+        {
+          "collisions": 6,
+          "cost_mean": 39.56283333333334,
+          "deferred": 0.08333333333333333,
+          "n": 360,
+          "p_value": 0.0839629731047477,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.04
+          },
+          "success": 0.9
+        },
+        {
+          "collisions": 11,
+          "cost_mean": 35.6135,
+          "deferred": 0.016666666666666666,
+          "n": 360,
+          "p_value": 0.6035028979376669,
+          "rejected": false,
+          "setting": {
+            "safety_margin": 0.02
+          },
+          "success": 0.9527777777777777
+        }
+      ],
+      "delta": 0.1,
+      "guarantee": "With probability >= 0.90 over the calibration episodes, the per-episode collision probability of 'confidence_gate' at the selected setting is <= 0.03 for episodes exchangeable with the calibration episodes (same scenario generator and split).",
+      "method": "confidence_gate",
+      "no_certificate": false,
+      "selected_index": 1,
+      "selected_setting": {
+        "safety_margin": 0.04
+      }
+    },
+    "no_expert": {
+      "alpha": 0.03,
+      "candidates": [
+        {
+          "collisions": 1,
+          "cost_mean": 48.449366666666656,
+          "deferred": 0.21944444444444444,
+          "n": 360,
+          "p_value": 0.00020981139166542266,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.08
+          },
+          "success": 0.7777777777777778
+        },
+        {
+          "collisions": 3,
+          "cost_mean": 35.85562222222222,
+          "deferred": 0.075,
+          "n": 360,
+          "p_value": 0.005223184103828817,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.04
+          },
+          "success": 0.9166666666666666
+        },
+        {
+          "collisions": 10,
+          "cost_mean": 32.219144444444446,
+          "deferred": 0.03611111111111111,
+          "n": 360,
+          "p_value": 0.4824888808622484,
+          "rejected": false,
+          "setting": {
+            "safety_margin": 0.02
+          },
+          "success": 0.9361111111111111
+        }
+      ],
+      "delta": 0.1,
+      "guarantee": "With probability >= 0.90 over the calibration episodes, the per-episode collision probability of 'no_expert' at the selected setting is <= 0.03 for episodes exchangeable with the calibration episodes (same scenario generator and split).",
+      "method": "no_expert",
+      "no_certificate": false,
+      "selected_index": 1,
+      "selected_setting": {
+        "safety_margin": 0.04
+      }
+    },
+    "no_learning": {
+      "alpha": 0.03,
+      "candidates": [
+        {
+          "collisions": 1,
+          "cost_mean": 51.11346666666666,
+          "deferred": 0.23333333333333334,
+          "n": 360,
+          "p_value": 0.00020981139166542266,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.08
+          },
+          "success": 0.7638888888888888
+        },
+        {
+          "collisions": 6,
+          "cost_mean": 37.01252222222222,
+          "deferred": 0.06388888888888888,
+          "n": 360,
+          "p_value": 0.0839629731047477,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.04
+          },
+          "success": 0.9194444444444444
+        },
+        {
+          "collisions": 11,
+          "cost_mean": 33.63191111111111,
+          "deferred": 0.016666666666666666,
+          "n": 360,
+          "p_value": 0.6035028979376669,
+          "rejected": false,
+          "setting": {
+            "safety_margin": 0.02
+          },
+          "success": 0.9527777777777777
+        }
+      ],
+      "delta": 0.1,
+      "guarantee": "With probability >= 0.90 over the calibration episodes, the per-episode collision probability of 'no_learning' at the selected setting is <= 0.03 for episodes exchangeable with the calibration episodes (same scenario generator and split).",
+      "method": "no_learning",
+      "no_certificate": false,
+      "selected_index": 1,
+      "selected_setting": {
+        "safety_margin": 0.04
+      }
+    },
+    "telemachus": {
+      "alpha": 0.03,
+      "candidates": [
+        {
+          "collisions": 1,
+          "cost_mean": 49.33756666666666,
+          "deferred": 0.2111111111111111,
+          "n": 360,
+          "p_value": 0.00020981139166542266,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.08
+          },
+          "success": 0.7861111111111111
+        },
+        {
+          "collisions": 3,
+          "cost_mean": 36.4466,
+          "deferred": 0.075,
+          "n": 360,
+          "p_value": 0.005223184103828817,
+          "rejected": true,
+          "setting": {
+            "safety_margin": 0.04
+          },
+          "success": 0.9166666666666666
+        },
+        {
+          "collisions": 10,
+          "cost_mean": 32.27497777777778,
+          "deferred": 0.03333333333333333,
+          "n": 360,
+          "p_value": 0.4824888808622484,
+          "rejected": false,
+          "setting": {
+            "safety_margin": 0.02
+          },
+          "success": 0.9388888888888889
+        }
+      ],
+      "delta": 0.1,
+      "guarantee": "With probability >= 0.90 over the calibration episodes, the per-episode collision probability of 'telemachus' at the selected setting is <= 0.03 for episodes exchangeable with the calibration episodes (same scenario generator and split).",
+      "method": "telemachus",
+      "no_certificate": false,
+      "selected_index": 1,
+      "selected_setting": {
+        "safety_margin": 0.04
+      }
+    }
+  },
+  "protocol_hash": "0d58b8e1bc4cbce3fceef94b3ec60a141cd42e72ad197ac3ccd35b28d3a17bec"
+}

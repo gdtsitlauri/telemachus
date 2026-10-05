@@ -1,0 +1,431 @@
+﻿  static       chunk   0 margin=0.040 coll=0.250
+  static       chunk   1 margin=0.040 coll=0.083
+  static       chunk   2 margin=0.040 coll=0.167
+  static       chunk   3 margin=0.040 coll=0.083
+  static       chunk   4 margin=0.040 coll=0.083
+  static       chunk   5 margin=0.040 coll=0.000
+  static       chunk   6 margin=0.040 coll=0.000
+  static       chunk   7 margin=0.040 coll=0.167
+  static       chunk   8 margin=0.040 coll=0.083
+  static       chunk   9 margin=0.040 coll=0.083
+  static       chunk  10 margin=0.040 coll=0.000
+  static       chunk  11 margin=0.040 coll=0.167
+  static       chunk  12 margin=0.040 coll=0.000
+  static       chunk  13 margin=0.040 coll=0.000
+  static       chunk  14 margin=0.040 coll=0.083
+  static       chunk  15 margin=0.040 coll=0.083
+  static       chunk  16 margin=0.040 coll=0.000
+  static       chunk  17 margin=0.040 coll=0.167
+  static       chunk  18 margin=0.040 coll=0.083
+  static       chunk  19 margin=0.040 coll=0.000
+  static       chunk  20 margin=0.040 coll=0.000
+  static       chunk  21 margin=0.040 coll=0.083
+  static       chunk  22 margin=0.040 coll=0.250
+  static       chunk  23 margin=0.040 coll=0.083
+  static       chunk  24 margin=0.040 coll=0.083
+  static       chunk  25 margin=0.040 coll=0.083
+  static       chunk  26 margin=0.040 coll=0.000
+  static       chunk  27 margin=0.040 coll=0.000
+  static       chunk  28 margin=0.040 coll=0.083
+  static       chunk  29 margin=0.040 coll=0.083
+  static       chunk  30 margin=0.040 coll=0.000
+  static       chunk  31 margin=0.040 coll=0.083
+  static       chunk  32 margin=0.040 coll=0.000
+  static       chunk  33 margin=0.040 coll=0.000
+  static       chunk  34 margin=0.040 coll=0.083
+  static       chunk  35 margin=0.040 coll=0.000
+  static       chunk  36 margin=0.040 coll=0.000
+  static       chunk  37 margin=0.040 coll=0.000
+  static       chunk  38 margin=0.040 coll=0.000
+  static       chunk  39 margin=0.040 coll=0.083
+  online       chunk   0 margin=0.040 coll=0.250
+  online       chunk   1 margin=0.095 coll=0.000
+  online       chunk   2 margin=0.087 coll=0.083
+  online       chunk   3 margin=0.101 coll=0.083
+  online       chunk   4 margin=0.114 coll=0.000
+  online       chunk   5 margin=0.107 coll=0.083
+  online       chunk   6 margin=0.120 coll=0.000
+  online       chunk   7 margin=0.112 coll=0.083
+  online       chunk   8 margin=0.126 coll=0.083
+  online       chunk   9 margin=0.139 coll=0.000
+  online       chunk  10 margin=0.132 coll=0.000
+  online       chunk  11 margin=0.124 coll=0.000
+  online       chunk  12 margin=0.117 coll=0.000
+  online       chunk  13 margin=0.109 coll=0.000
+  online       chunk  14 margin=0.102 coll=0.083
+  online       chunk  15 margin=0.115 coll=0.083
+  online       chunk  16 margin=0.128 coll=0.000
+  online       chunk  17 margin=0.121 coll=0.083
+  online       chunk  18 margin=0.134 coll=0.000
+  online       chunk  19 margin=0.127 coll=0.000
+  online       chunk  20 margin=0.119 coll=0.000
+  online       chunk  21 margin=0.112 coll=0.083
+  online       chunk  22 margin=0.125 coll=0.000
+  online       chunk  23 margin=0.117 coll=0.000
+  online       chunk  24 margin=0.110 coll=0.000
+  online       chunk  25 margin=0.102 coll=0.083
+  online       chunk  26 margin=0.116 coll=0.000
+  online       chunk  27 margin=0.108 coll=0.000
+  online       chunk  28 margin=0.101 coll=0.000
+  online       chunk  29 margin=0.093 coll=0.000
+  online       chunk  30 margin=0.086 coll=0.000
+  online       chunk  31 margin=0.078 coll=0.000
+  online       chunk  32 margin=0.071 coll=0.000
+  online       chunk  33 margin=0.063 coll=0.000
+  online       chunk  34 margin=0.056 coll=0.083
+  online       chunk  35 margin=0.069 coll=0.000
+  online       chunk  36 margin=0.062 coll=0.083
+  online       chunk  37 margin=0.075 coll=0.000
+  online       chunk  38 margin=0.067 coll=0.000
+  online       chunk  39 margin=0.060 coll=0.083
+  conservative chunk   0 margin=0.080 coll=0.083
+  conservative chunk   1 margin=0.080 coll=0.000
+  conservative chunk   2 margin=0.080 coll=0.083
+  conservative chunk   3 margin=0.080 coll=0.167
+  conservative chunk   4 margin=0.080 coll=0.083
+  conservative chunk   5 margin=0.080 coll=0.083
+  conservative chunk   6 margin=0.080 coll=0.083
+  conservative chunk   7 margin=0.080 coll=0.000
+  conservative chunk   8 margin=0.080 coll=0.000
+  conservative chunk   9 margin=0.080 coll=0.000
+  conservative chunk  10 margin=0.080 coll=0.000
+  conservative chunk  11 margin=0.080 coll=0.250
+  conservative chunk  12 margin=0.080 coll=0.000
+  conservative chunk  13 margin=0.080 coll=0.000
+  conservative chunk  14 margin=0.080 coll=0.083
+  conservative chunk  15 margin=0.080 coll=0.083
+  conservative chunk  16 margin=0.080 coll=0.000
+  conservative chunk  17 margin=0.080 coll=0.083
+  conservative chunk  18 margin=0.080 coll=0.083
+  conservative chunk  19 margin=0.080 coll=0.000
+  conservative chunk  20 margin=0.080 coll=0.083
+  conservative chunk  21 margin=0.080 coll=0.083
+  conservative chunk  22 margin=0.080 coll=0.000
+  conservative chunk  23 margin=0.080 coll=0.083
+  conservative chunk  24 margin=0.080 coll=0.083
+  conservative chunk  25 margin=0.080 coll=0.083
+  conservative chunk  26 margin=0.080 coll=0.000
+  conservative chunk  27 margin=0.080 coll=0.000
+  conservative chunk  28 margin=0.080 coll=0.083
+  conservative chunk  29 margin=0.080 coll=0.000
+  conservative chunk  30 margin=0.080 coll=0.083
+  conservative chunk  31 margin=0.080 coll=0.000
+  conservative chunk  32 margin=0.080 coll=0.000
+  conservative chunk  33 margin=0.080 coll=0.000
+  conservative chunk  34 margin=0.080 coll=0.000
+  conservative chunk  35 margin=0.080 coll=0.000
+  conservative chunk  36 margin=0.080 coll=0.000
+  conservative chunk  37 margin=0.080 coll=0.000
+  conservative chunk  38 margin=0.080 coll=0.000
+  conservative chunk  39 margin=0.080 coll=0.083
+  static       chunk   0 margin=0.040 coll=0.000
+  static       chunk   1 margin=0.040 coll=0.000
+  static       chunk   2 margin=0.040 coll=0.167
+  static       chunk   3 margin=0.040 coll=0.250
+  static       chunk   4 margin=0.040 coll=0.083
+  static       chunk   5 margin=0.040 coll=0.250
+  static       chunk   6 margin=0.040 coll=0.083
+  static       chunk   7 margin=0.040 coll=0.083
+  static       chunk   8 margin=0.040 coll=0.083
+  static       chunk   9 margin=0.040 coll=0.000
+  static       chunk  10 margin=0.040 coll=0.167
+  static       chunk  11 margin=0.040 coll=0.083
+  static       chunk  12 margin=0.040 coll=0.083
+  static       chunk  13 margin=0.040 coll=0.000
+  static       chunk  14 margin=0.040 coll=0.167
+  static       chunk  15 margin=0.040 coll=0.083
+  static       chunk  16 margin=0.040 coll=0.000
+  static       chunk  17 margin=0.040 coll=0.167
+  static       chunk  18 margin=0.040 coll=0.000
+  static       chunk  19 margin=0.040 coll=0.083
+  static       chunk  20 margin=0.040 coll=0.083
+  static       chunk  21 margin=0.040 coll=0.083
+  static       chunk  22 margin=0.040 coll=0.000
+  static       chunk  23 margin=0.040 coll=0.000
+  static       chunk  24 margin=0.040 coll=0.083
+  static       chunk  25 margin=0.040 coll=0.167
+  static       chunk  26 margin=0.040 coll=0.167
+  static       chunk  27 margin=0.040 coll=0.083
+  static       chunk  28 margin=0.040 coll=0.083
+  static       chunk  29 margin=0.040 coll=0.167
+  static       chunk  30 margin=0.040 coll=0.000
+  static       chunk  31 margin=0.040 coll=0.167
+  static       chunk  32 margin=0.040 coll=0.250
+  static       chunk  33 margin=0.040 coll=0.000
+  static       chunk  34 margin=0.040 coll=0.000
+  static       chunk  35 margin=0.040 coll=0.083
+  static       chunk  36 margin=0.040 coll=0.083
+  static       chunk  37 margin=0.040 coll=0.000
+  static       chunk  38 margin=0.040 coll=0.000
+  static       chunk  39 margin=0.040 coll=0.083
+  online       chunk   0 margin=0.040 coll=0.000
+  online       chunk   1 margin=0.033 coll=0.000
+  online       chunk   2 margin=0.025 coll=0.167
+  online       chunk   3 margin=0.059 coll=0.167
+  online       chunk   4 margin=0.093 coll=0.000
+  online       chunk   5 margin=0.086 coll=0.083
+  online       chunk   6 margin=0.099 coll=0.000
+  online       chunk   7 margin=0.092 coll=0.000
+  online       chunk   8 margin=0.084 coll=0.000
+  online       chunk   9 margin=0.077 coll=0.000
+  online       chunk  10 margin=0.069 coll=0.167
+  online       chunk  11 margin=0.103 coll=0.000
+  online       chunk  12 margin=0.096 coll=0.000
+  online       chunk  13 margin=0.088 coll=0.000
+  online       chunk  14 margin=0.081 coll=0.000
+  online       chunk  15 margin=0.073 coll=0.083
+  online       chunk  16 margin=0.087 coll=0.083
+  online       chunk  17 margin=0.100 coll=0.083
+  online       chunk  18 margin=0.113 coll=0.000
+  online       chunk  19 margin=0.106 coll=0.000
+  online       chunk  20 margin=0.098 coll=0.000
+  online       chunk  21 margin=0.091 coll=0.000
+  online       chunk  22 margin=0.083 coll=0.083
+  online       chunk  23 margin=0.097 coll=0.000
+  online       chunk  24 margin=0.089 coll=0.000
+  online       chunk  25 margin=0.082 coll=0.000
+  online       chunk  26 margin=0.074 coll=0.000
+  online       chunk  27 margin=0.067 coll=0.083
+  online       chunk  28 margin=0.080 coll=0.000
+  online       chunk  29 margin=0.072 coll=0.000
+  online       chunk  30 margin=0.065 coll=0.000
+  online       chunk  31 margin=0.057 coll=0.083
+  online       chunk  32 margin=0.071 coll=0.000
+  online       chunk  33 margin=0.063 coll=0.000
+  online       chunk  34 margin=0.056 coll=0.000
+  online       chunk  35 margin=0.048 coll=0.083
+  online       chunk  36 margin=0.062 coll=0.000
+  online       chunk  37 margin=0.054 coll=0.000
+  online       chunk  38 margin=0.047 coll=0.000
+  online       chunk  39 margin=0.039 coll=0.083
+  conservative chunk   0 margin=0.080 coll=0.000
+  conservative chunk   1 margin=0.080 coll=0.000
+  conservative chunk   2 margin=0.080 coll=0.000
+  conservative chunk   3 margin=0.080 coll=0.083
+  conservative chunk   4 margin=0.080 coll=0.000
+  conservative chunk   5 margin=0.080 coll=0.000
+  conservative chunk   6 margin=0.080 coll=0.000
+  conservative chunk   7 margin=0.080 coll=0.000
+  conservative chunk   8 margin=0.080 coll=0.000
+  conservative chunk   9 margin=0.080 coll=0.000
+  conservative chunk  10 margin=0.080 coll=0.167
+  conservative chunk  11 margin=0.080 coll=0.000
+  conservative chunk  12 margin=0.080 coll=0.083
+  conservative chunk  13 margin=0.080 coll=0.000
+  conservative chunk  14 margin=0.080 coll=0.000
+  conservative chunk  15 margin=0.080 coll=0.000
+  conservative chunk  16 margin=0.080 coll=0.083
+  conservative chunk  17 margin=0.080 coll=0.083
+  conservative chunk  18 margin=0.080 coll=0.000
+  conservative chunk  19 margin=0.080 coll=0.000
+  conservative chunk  20 margin=0.080 coll=0.000
+  conservative chunk  21 margin=0.080 coll=0.000
+  conservative chunk  22 margin=0.080 coll=0.000
+  conservative chunk  23 margin=0.080 coll=0.083
+  conservative chunk  24 margin=0.080 coll=0.000
+  conservative chunk  25 margin=0.080 coll=0.083
+  conservative chunk  26 margin=0.080 coll=0.083
+  conservative chunk  27 margin=0.080 coll=0.083
+  conservative chunk  28 margin=0.080 coll=0.000
+  conservative chunk  29 margin=0.080 coll=0.083
+  conservative chunk  30 margin=0.080 coll=0.083
+  conservative chunk  31 margin=0.080 coll=0.083
+  conservative chunk  32 margin=0.080 coll=0.083
+  conservative chunk  33 margin=0.080 coll=0.000
+  conservative chunk  34 margin=0.080 coll=0.000
+  conservative chunk  35 margin=0.080 coll=0.083
+  conservative chunk  36 margin=0.080 coll=0.083
+  conservative chunk  37 margin=0.080 coll=0.000
+  conservative chunk  38 margin=0.080 coll=0.000
+  conservative chunk  39 margin=0.080 coll=0.083
+  static       chunk   0 margin=0.040 coll=0.083
+  static       chunk   1 margin=0.040 coll=0.167
+  static       chunk   2 margin=0.040 coll=0.000
+  static       chunk   3 margin=0.040 coll=0.167
+  static       chunk   4 margin=0.040 coll=0.083
+  static       chunk   5 margin=0.040 coll=0.000
+  static       chunk   6 margin=0.040 coll=0.083
+  static       chunk   7 margin=0.040 coll=0.083
+  static       chunk   8 margin=0.040 coll=0.083
+  static       chunk   9 margin=0.040 coll=0.083
+  static       chunk  10 margin=0.040 coll=0.083
+  static       chunk  11 margin=0.040 coll=0.083
+  static       chunk  12 margin=0.040 coll=0.000
+  static       chunk  13 margin=0.040 coll=0.000
+  static       chunk  14 margin=0.040 coll=0.000
+  static       chunk  15 margin=0.040 coll=0.083
+  static       chunk  16 margin=0.040 coll=0.083
+  static       chunk  17 margin=0.040 coll=0.083
+  static       chunk  18 margin=0.040 coll=0.000
+  static       chunk  19 margin=0.040 coll=0.167
+  static       chunk  20 margin=0.040 coll=0.000
+  static       chunk  21 margin=0.040 coll=0.000
+  static       chunk  22 margin=0.040 coll=0.167
+  static       chunk  23 margin=0.040 coll=0.083
+  static       chunk  24 margin=0.040 coll=0.083
+  static       chunk  25 margin=0.040 coll=0.167
+  static       chunk  26 margin=0.040 coll=0.250
+  static       chunk  27 margin=0.040 coll=0.083
+  static       chunk  28 margin=0.040 coll=0.250
+  static       chunk  29 margin=0.040 coll=0.333
+  static       chunk  30 margin=0.040 coll=0.083
+  static       chunk  31 margin=0.040 coll=0.250
+  static       chunk  32 margin=0.040 coll=0.000
+  static       chunk  33 margin=0.040 coll=0.000
+  static       chunk  34 margin=0.040 coll=0.000
+  static       chunk  35 margin=0.040 coll=0.083
+  static       chunk  36 margin=0.040 coll=0.083
+  static       chunk  37 margin=0.040 coll=0.083
+  static       chunk  38 margin=0.040 coll=0.083
+  static       chunk  39 margin=0.040 coll=0.167
+  online       chunk   0 margin=0.040 coll=0.083
+  online       chunk   1 margin=0.053 coll=0.167
+  online       chunk   2 margin=0.087 coll=0.000
+  online       chunk   3 margin=0.080 coll=0.167
+  online       chunk   4 margin=0.114 coll=0.000
+  online       chunk   5 margin=0.107 coll=0.083
+  online       chunk   6 margin=0.120 coll=0.000
+  online       chunk   7 margin=0.112 coll=0.000
+  online       chunk   8 margin=0.105 coll=0.083
+  online       chunk   9 margin=0.118 coll=0.083
+  online       chunk  10 margin=0.132 coll=0.000
+  online       chunk  11 margin=0.124 coll=0.000
+  online       chunk  12 margin=0.117 coll=0.000
+  online       chunk  13 margin=0.109 coll=0.000
+  online       chunk  14 margin=0.102 coll=0.000
+  online       chunk  15 margin=0.094 coll=0.000
+  online       chunk  16 margin=0.087 coll=0.167
+  online       chunk  17 margin=0.121 coll=0.000
+  online       chunk  18 margin=0.113 coll=0.000
+  online       chunk  19 margin=0.106 coll=0.083
+  online       chunk  20 margin=0.119 coll=0.083
+  online       chunk  21 margin=0.132 coll=0.000
+  online       chunk  22 margin=0.125 coll=0.000
+  online       chunk  23 margin=0.117 coll=0.000
+  online       chunk  24 margin=0.110 coll=0.000
+  online       chunk  25 margin=0.102 coll=0.000
+  online       chunk  26 margin=0.095 coll=0.083
+  online       chunk  27 margin=0.108 coll=0.000
+  online       chunk  28 margin=0.101 coll=0.083
+  online       chunk  29 margin=0.114 coll=0.000
+  online       chunk  30 margin=0.107 coll=0.000
+  online       chunk  31 margin=0.099 coll=0.167
+  online       chunk  32 margin=0.133 coll=0.000
+  online       chunk  33 margin=0.126 coll=0.083
+  online       chunk  34 margin=0.139 coll=0.000
+  online       chunk  35 margin=0.132 coll=0.000
+  online       chunk  36 margin=0.124 coll=0.000
+  online       chunk  37 margin=0.117 coll=0.000
+  online       chunk  38 margin=0.109 coll=0.167
+  online       chunk  39 margin=0.143 coll=0.000
+  conservative chunk   0 margin=0.080 coll=0.000
+  conservative chunk   1 margin=0.080 coll=0.167
+  conservative chunk   2 margin=0.080 coll=0.000
+  conservative chunk   3 margin=0.080 coll=0.167
+  conservative chunk   4 margin=0.080 coll=0.000
+  conservative chunk   5 margin=0.080 coll=0.000
+  conservative chunk   6 margin=0.080 coll=0.083
+  conservative chunk   7 margin=0.080 coll=0.167
+  conservative chunk   8 margin=0.080 coll=0.083
+  conservative chunk   9 margin=0.080 coll=0.083
+  conservative chunk  10 margin=0.080 coll=0.000
+  conservative chunk  11 margin=0.080 coll=0.083
+  conservative chunk  12 margin=0.080 coll=0.000
+  conservative chunk  13 margin=0.080 coll=0.000
+  conservative chunk  14 margin=0.080 coll=0.000
+  conservative chunk  15 margin=0.080 coll=0.083
+  conservative chunk  16 margin=0.080 coll=0.000
+  conservative chunk  17 margin=0.080 coll=0.083
+  conservative chunk  18 margin=0.080 coll=0.000
+  conservative chunk  19 margin=0.080 coll=0.000
+  conservative chunk  20 margin=0.080 coll=0.083
+  conservative chunk  21 margin=0.080 coll=0.000
+  conservative chunk  22 margin=0.080 coll=0.000
+  conservative chunk  23 margin=0.080 coll=0.000
+  conservative chunk  24 margin=0.080 coll=0.000
+  conservative chunk  25 margin=0.080 coll=0.000
+  conservative chunk  26 margin=0.080 coll=0.083
+  conservative chunk  27 margin=0.080 coll=0.000
+  conservative chunk  28 margin=0.080 coll=0.167
+  conservative chunk  29 margin=0.080 coll=0.000
+  conservative chunk  30 margin=0.080 coll=0.083
+  conservative chunk  31 margin=0.080 coll=0.167
+  conservative chunk  32 margin=0.080 coll=0.000
+  conservative chunk  33 margin=0.080 coll=0.000
+  conservative chunk  34 margin=0.080 coll=0.000
+  conservative chunk  35 margin=0.080 coll=0.000
+  conservative chunk  36 margin=0.080 coll=0.000
+  conservative chunk  37 margin=0.080 coll=0.083
+  conservative chunk  38 margin=0.080 coll=0.167
+  conservative chunk  39 margin=0.080 coll=0.083
+{
+ "stream_0": {
+  "static": {
+   "n": 480,
+   "collision": 0.06458333333333334,
+   "success": 0.5270833333333333,
+   "deferred": 0.4083333333333333,
+   "cost": 76.38550833333332
+  },
+  "online": {
+   "n": 480,
+   "collision": 0.03333333333333333,
+   "success": 0.39166666666666666,
+   "deferred": 0.575,
+   "cost": 87.4630833333333
+  },
+  "conservative": {
+   "n": 480,
+   "collision": 0.04583333333333333,
+   "success": 0.4666666666666667,
+   "deferred": 0.4875,
+   "cost": 81.02480833333333
+  }
+ },
+ "stream_1": {
+  "static": {
+   "n": 480,
+   "collision": 0.08541666666666667,
+   "success": 0.5,
+   "deferred": 0.41458333333333336,
+   "cost": 74.12709166666666
+  },
+  "online": {
+   "n": 480,
+   "collision": 0.03125,
+   "success": 0.43125,
+   "deferred": 0.5375,
+   "cost": 82.71997499999998
+  },
+  "conservative": {
+   "n": 480,
+   "collision": 0.035416666666666666,
+   "success": 0.4375,
+   "deferred": 0.5270833333333333,
+   "cost": 84.54083333333331
+  }
+ },
+ "stream_2": {
+  "static": {
+   "n": 480,
+   "collision": 0.09166666666666666,
+   "success": 0.5333333333333333,
+   "deferred": 0.375,
+   "cost": 72.33554999999998
+  },
+  "online": {
+   "n": 480,
+   "collision": 0.03958333333333333,
+   "success": 0.30625,
+   "deferred": 0.6541666666666667,
+   "cost": 90.67539999999998
+  },
+  "conservative": {
+   "n": 480,
+   "collision": 0.04791666666666667,
+   "success": 0.45416666666666666,
+   "deferred": 0.4979166666666667,
+   "cost": 83.10689999999998
+  }
+ }
+}

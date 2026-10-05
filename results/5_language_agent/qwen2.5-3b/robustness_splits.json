@@ -1,0 +1,2506 @@
+{
+  "n_splits": 50,
+  "summary": {
+    "alpha_0.3": {
+      "learned": {
+        "certified_splits": 50,
+        "within_alpha_splits": 44,
+        "cost_mean": 179.01260083449233,
+        "cost_p5_p95": [
+          159.06627260083448,
+          205.1184283727399
+        ],
+        "error_mean": 0.2778581363004173
+      },
+      "confidence": {
+        "certified_splits": 50,
+        "within_alpha_splits": 46,
+        "cost_mean": 760.7296244784421,
+        "cost_p5_p95": [
+          676.5041724617524,
+          870.4272600834493
+        ],
+        "error_mean": 0.26255910987482617
+      },
+      "agreement": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 635.9277607788595,
+        "cost_p5_p95": [
+          614.898331015299,
+          662.4995132127956
+        ],
+        "error_mean": 0.09112656467315716
+      },
+      "fixed_certified": {
+        "stages": {
+          "THINK": 50
+        },
+        "cost_mean": 186.46431154381088,
+        "error_mean": 0.1600834492350487,
+        "within_alpha_splits": 50
+      },
+      "learned_cheaper_than_confidence": "50/50",
+      "confidence_over_learned_cost_ratio": {
+        "mean": 4.282172569763379,
+        "p5_p95": [
+          3.6431916729070557,
+          5.059055052986679
+        ]
+      },
+      "learned_cheaper_than_fixed_certified": "33/50"
+    },
+    "alpha_0.2": {
+      "learned": {
+        "certified_splits": 50,
+        "within_alpha_splits": 38,
+        "cost_mean": 262.15240611961053,
+        "cost_p5_p95": [
+          233.59575799721836,
+          295.2970097357441
+        ],
+        "error_mean": 0.18152990264255908
+      },
+      "confidence": {
+        "certified_splits": 50,
+        "within_alpha_splits": 48,
+        "cost_mean": 970.1967176634213,
+        "cost_p5_p95": [
+          899.5108484005563,
+          1011.5705841446453
+        ],
+        "error_mean": 0.16186369958275382
+      },
+      "agreement": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 635.9277607788595,
+        "cost_p5_p95": [
+          614.898331015299,
+          662.4995132127956
+        ],
+        "error_mean": 0.09112656467315716
+      },
+      "fixed_certified": {
+        "stages": {
+          "THINK": 42,
+          "VOTE": 8
+        },
+        "cost_mean": 246.76656467315715,
+        "error_mean": 0.15777468706536854,
+        "within_alpha_splits": 50
+      },
+      "learned_cheaper_than_confidence": "50/50",
+      "confidence_over_learned_cost_ratio": {
+        "mean": 3.7171180227251286,
+        "p5_p95": [
+          3.324961126378501,
+          4.1495259094686014
+        ]
+      },
+      "learned_cheaper_than_fixed_certified": "8/50"
+    }
+  },
+  "runs": [
+    {
+      "split": 0,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 187.73296244784422
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 181.24200278164116,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2670375521557719,
+        "cost": 763.3922114047288,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 621.0403337969402,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 0,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 187.73296244784422
+      },
+      "learned": {
+        "error": 0.16968011126564672,
+        "cost": 274.21418636995827,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1599443671766342,
+        "cost": 994.1905424200278,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 621.0403337969402,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 1,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16411682892906815,
+        "cost": 187.34075104311543
+      },
+      "learned": {
+        "error": 0.282336578581363,
+        "cost": 177.68706536856746,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25034770514603616,
+        "cost": 785.5938803894297,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 645.6745479833102,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 1,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16411682892906815,
+        "cost": 187.34075104311543
+      },
+      "learned": {
+        "error": 0.1835883171070932,
+        "cost": 263.78859527121,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1376912378303199,
+        "cost": 999.8623087621697,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 645.6745479833102,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 2,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 185.9749652294854
+      },
+      "learned": {
+        "error": 0.22809457579972184,
+        "cost": 216.44645340751043,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19193324061196107,
+        "cost": 871.518776077886,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 629.8581363004173,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 2,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 185.9749652294854
+      },
+      "learned": {
+        "error": 0.13212795549374132,
+        "cost": 317.0667593880389,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.09735744089012517,
+        "cost": 1058.3783031988874,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 629.8581363004173,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 3,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 184.26564673157162
+      },
+      "learned": {
+        "error": 0.2865090403337969,
+        "cost": 172.49235048678722,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26286509040333794,
+        "cost": 734.0445062586926,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09596662030598054,
+        "cost": 626.6968011126564,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 3,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 184.26564673157162
+      },
+      "learned": {
+        "error": 0.17385257301808066,
+        "cost": 263.89847009735746,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1599443671766342,
+        "cost": 976.9095966620306,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09596662030598054,
+        "cost": 626.6968011126564,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 4,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17524339360222532,
+        "cost": 185.9123783031989
+      },
+      "learned": {
+        "error": 0.3379694019471488,
+        "cost": 149.06119610570235,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 771.1821974965229,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 638.3351877607788,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 4,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17524339360222532,
+        "cost": 185.9123783031989
+      },
+      "learned": {
+        "error": 0.2114047287899861,
+        "cost": 246.07649513212795,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.19888734353268428,
+        "cost": 923.6801112656467,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 638.3351877607788,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 5,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14881780250347706,
+        "cost": 185.6328233657858
+      },
+      "learned": {
+        "error": 0.2517385257301808,
+        "cost": 198.61196105702365,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2086230876216968,
+        "cost": 858.663421418637,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 627.287899860918,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 5,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.13351877607788595,
+        "cost": 561.7552155771906
+      },
+      "learned": {
+        "error": 0.14186369958275383,
+        "cost": 287.9443671766342,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14464534075104313,
+        "cost": 975.8567454798331,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 627.287899860918,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 6,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14603616133518776,
+        "cost": 185.27260083449235
+      },
+      "learned": {
+        "error": 0.25034770514603616,
+        "cost": 197.41863699582754,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2712100139082058,
+        "cost": 746.0180806675938,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 626.2559109874826,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 6,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.13630041724617525,
+        "cost": 562.0528511821975
+      },
+      "learned": {
+        "error": 0.1376912378303199,
+        "cost": 295.1891515994437,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15159944367176634,
+        "cost": 993.2559109874826,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 626.2559109874826,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 7,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.09874826147427
+      },
+      "learned": {
+        "error": 0.2336578581363004,
+        "cost": 206.55354659248957,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2517385257301808,
+        "cost": 784.2030598052851,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 646.5521557719054,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 7,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.09874826147427
+      },
+      "learned": {
+        "error": 0.18219749652294853,
+        "cost": 250.08901251738527,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.13908205841446453,
+        "cost": 1011.5924895688456,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 646.5521557719054,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 8,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.80528511821976
+      },
+      "learned": {
+        "error": 0.29346314325452016,
+        "cost": 169.11265646731573,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.27399165507649514,
+        "cost": 767.5257301808067,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 656.7746870653685,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 8,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.80528511821976
+      },
+      "learned": {
+        "error": 0.20027816411682892,
+        "cost": 259.70653685674546,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.15438108484005564,
+        "cost": 992.567454798331,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 656.7746870653685,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 9,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16968011126564672,
+        "cost": 185.59944367176635
+      },
+      "learned": {
+        "error": 0.29346314325452016,
+        "cost": 160.69262865090403,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2545201668984701,
+        "cost": 730.6272600834492,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 625.3296244784423,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 9,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16968011126564672,
+        "cost": 185.59944367176635
+      },
+      "learned": {
+        "error": 0.1835883171070932,
+        "cost": 254.97913769123784,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14603616133518776,
+        "cost": 973.9179415855355,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 625.3296244784423,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 10,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1599443671766342,
+        "cost": 185.45618915159943
+      },
+      "learned": {
+        "error": 0.27816411682892905,
+        "cost": 179.59527121001392,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2698191933240612,
+        "cost": 759.3282336578582,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07649513212795549,
+        "cost": 637.3699582753825,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 10,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1599443671766342,
+        "cost": 185.45618915159943
+      },
+      "learned": {
+        "error": 0.19471488178025034,
+        "cost": 237.60222531293462,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14881780250347706,
+        "cost": 994.9388038942976,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07649513212795549,
+        "cost": 637.3699582753825,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 11,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 182.94436717663422
+      },
+      "learned": {
+        "error": 0.2545201668984701,
+        "cost": 183.80806675938803,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2753824756606398,
+        "cost": 714.6077885952712,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 622.6453407510431,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 11,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 182.94436717663422
+      },
+      "learned": {
+        "error": 0.1571627260083449,
+        "cost": 275.7329624478442,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19888734353268428,
+        "cost": 877.1474269819194,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 622.6453407510431,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 12,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 183.1557719054242
+      },
+      "learned": {
+        "error": 0.29346314325452016,
+        "cost": 161.5605006954103,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2614742698191933,
+        "cost": 746.6522948539639,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09874826147426982,
+        "cost": 632.7065368567455,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 12,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 183.1557719054242
+      },
+      "learned": {
+        "error": 0.19471488178025034,
+        "cost": 234.21001390820584,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 956.9721835883171,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09874826147426982,
+        "cost": 632.7065368567455,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 13,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 187.96383866481224
+      },
+      "learned": {
+        "error": 0.27399165507649514,
+        "cost": 184.91933240611962,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2545201668984701,
+        "cost": 746.6077885952712,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 628.6397774687065,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 13,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 187.96383866481224
+      },
+      "learned": {
+        "error": 0.19610570236439498,
+        "cost": 256.44645340751043,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14603616133518776,
+        "cost": 989.4742698191933,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 628.6397774687065,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 14,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 188.98609179415854
+      },
+      "learned": {
+        "error": 0.26425591098748263,
+        "cost": 203.3643949930459,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.31710709318497915,
+        "cost": 684.3296244784423,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 662.9763560500695,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 14,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 188.98609179415854
+      },
+      "learned": {
+        "error": 0.17246175243393602,
+        "cost": 282.61613351877605,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19193324061196107,
+        "cost": 939.7719054242003,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 662.9763560500695,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 15,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15577190542420027,
+        "cost": 187.63977746870654
+      },
+      "learned": {
+        "error": 0.29346314325452016,
+        "cost": 162.52573018080668,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 766.7719054242003,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09457579972183588,
+        "cost": 646.8595271210014,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 15,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15577190542420027,
+        "cost": 187.63977746870654
+      },
+      "learned": {
+        "error": 0.19888734353268428,
+        "cost": 245.9095966620306,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 998.3477051460361,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09457579972183588,
+        "cost": 646.8595271210014,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 16,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 188.25312934631432
+      },
+      "learned": {
+        "error": 0.28372739916550765,
+        "cost": 181.61891515994438,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2753824756606398,
+        "cost": 747.221140472879,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09040333796940195,
+        "cost": 642.8692628650904,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 16,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 188.25312934631432
+      },
+      "learned": {
+        "error": 0.18497913769123783,
+        "cost": 260.98470097357443,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19749652294853964,
+        "cost": 924.6481223922113,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09040333796940195,
+        "cost": 642.8692628650904,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 17,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16828929068150209,
+        "cost": 185.36022253129346
+      },
+      "learned": {
+        "error": 0.2767732962447844,
+        "cost": 175.3240611961057,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2614742698191933,
+        "cost": 776.1126564673157,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 650.9958275382476,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 17,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16828929068150209,
+        "cost": 185.36022253129346
+      },
+      "learned": {
+        "error": 0.1835883171070932,
+        "cost": 255.96662030598054,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1474269819193324,
+        "cost": 998.1905424200278,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 650.9958275382476,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 18,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16689847009735745,
+        "cost": 186.7482614742698
+      },
+      "learned": {
+        "error": 0.30598052851182195,
+        "cost": 159.24756606397776,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.21001390820584145,
+        "cost": 876.6203059805285,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07927677329624479,
+        "cost": 656.9680111265646,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 18,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16689847009735745,
+        "cost": 186.7482614742698
+      },
+      "learned": {
+        "error": 0.18636995827538247,
+        "cost": 258.15438108484005,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14325452016689846,
+        "cost": 998.6564673157163,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07927677329624479,
+        "cost": 656.9680111265646,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 19,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14881780250347706,
+        "cost": 185.06397774687065
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 188.74687065368568,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26425591098748263,
+        "cost": 718.2072322670375,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08205841446453407,
+        "cost": 623.0723226703756,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 19,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.12795549374130738,
+        "cost": 556.6133518776078
+      },
+      "learned": {
+        "error": 0.1599443671766342,
+        "cost": 274.7816411682893,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 956.9874826147427,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08205841446453407,
+        "cost": 623.0723226703756,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 20,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 189.08623087621697
+      },
+      "learned": {
+        "error": 0.25869262865090403,
+        "cost": 191.38386648122392,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2141863699582754,
+        "cost": 869.0931849791377,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 638.9499304589708,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 20,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 189.08623087621697
+      },
+      "learned": {
+        "error": 0.16550764951321278,
+        "cost": 279.6509040333797,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14325452016689846,
+        "cost": 1004.4089012517385,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 638.9499304589708,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 21,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 183.778859527121
+      },
+      "learned": {
+        "error": 0.282336578581363,
+        "cost": 176.1307371349096,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 731.8344923504868,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 615.0528511821975,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 21,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 183.778859527121
+      },
+      "learned": {
+        "error": 0.20166898470097358,
+        "cost": 241.56884561891516,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.15438108484005564,
+        "cost": 964.7621696801112,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 615.0528511821975,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 22,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 188.8038942976356
+      },
+      "learned": {
+        "error": 0.29207232267037553,
+        "cost": 163.94158553546592,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2767732962447844,
+        "cost": 723.6662030598053,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07788595271210014,
+        "cost": 646.0931849791377,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 22,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 188.8038942976356
+      },
+      "learned": {
+        "error": 0.21279554937413073,
+        "cost": 237.27260083449235,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.15438108484005564,
+        "cost": 973.5813630041724,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07788595271210014,
+        "cost": 646.0931849791377,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 23,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14603616133518776,
+        "cost": 184.56189151599443
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 162.83449235048678,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 734.6147426981919,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 604.8956884561892,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 23,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.12795549374130738,
+        "cost": 561.6787204450626
+      },
+      "learned": {
+        "error": 0.17663421418636996,
+        "cost": 228.47705146036162,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15159944367176634,
+        "cost": 974.8984700973574,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 604.8956884561892,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 24,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.06675938803895
+      },
+      "learned": {
+        "error": 0.2726008344923505,
+        "cost": 192.67176634214186,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2809457579972184,
+        "cost": 776.4631432545202,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 628.8108484005563,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 24,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.06675938803895
+      },
+      "learned": {
+        "error": 0.16968011126564672,
+        "cost": 277.7134909596662,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15577190542420027,
+        "cost": 1007.6898470097358,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 628.8108484005563,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 25,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.84700973574408
+      },
+      "learned": {
+        "error": 0.2851182197496523,
+        "cost": 181.8720445062587,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2573018080667594,
+        "cost": 782.0890125173853,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.1043115438108484,
+        "cost": 634.6216968011126,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 25,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.84700973574408
+      },
+      "learned": {
+        "error": 0.21001390820584145,
+        "cost": 231.61335187760778,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.15438108484005564,
+        "cost": 1003.8205841446453,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.1043115438108484,
+        "cost": 634.6216968011126,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 26,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.53407510431154
+      },
+      "learned": {
+        "error": 0.2948539638386648,
+        "cost": 158.91794158553546,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.21279554937413073,
+        "cost": 872.442280945758,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08344923504867872,
+        "cost": 647.6133518776078,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 26,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.53407510431154
+      },
+      "learned": {
+        "error": 0.1905424200278164,
+        "cost": 267.8970792767733,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15159944367176634,
+        "cost": 1000.970792767733,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08344923504867872,
+        "cost": 647.6133518776078,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 27,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 183.94158553546592
+      },
+      "learned": {
+        "error": 0.2809457579972184,
+        "cost": 182.6856745479833,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.3129346314325452,
+        "cost": 654.7607788595271,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 614.7719054242003,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 27,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 183.94158553546592
+      },
+      "learned": {
+        "error": 0.20723226703755215,
+        "cost": 233.0931849791377,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.20445062586926285,
+        "cost": 901.6481223922113,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 614.7719054242003,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 28,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 186.95549374130738
+      },
+      "learned": {
+        "error": 0.30598052851182195,
+        "cost": 160.86091794158554,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 755.9346314325452,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 659.2155771905424,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 28,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 186.95549374130738
+      },
+      "learned": {
+        "error": 0.18497913769123783,
+        "cost": 266.9374130737135,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1933240611961057,
+        "cost": 922.0013908205841,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 659.2155771905424,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 29,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17246175243393602,
+        "cost": 187.90403337969403
+      },
+      "learned": {
+        "error": 0.30737134909596664,
+        "cost": 164.38803894297635,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.27399165507649514,
+        "cost": 766.0834492350486,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09040333796940195,
+        "cost": 642.865090403338,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 29,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17246175243393602,
+        "cost": 187.90403337969403
+      },
+      "learned": {
+        "error": 0.2086230876216968,
+        "cost": 255.7413073713491,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.19888734353268428,
+        "cost": 925.5076495132128,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09040333796940195,
+        "cost": 642.865090403338,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 30,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17385257301808066,
+        "cost": 189.01947148817803
+      },
+      "learned": {
+        "error": 0.2948539638386648,
+        "cost": 167.81641168289292,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26425591098748263,
+        "cost": 778.5563282336578,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 655.0667593880389,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 30,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17385257301808066,
+        "cost": 189.01947148817803
+      },
+      "learned": {
+        "error": 0.20723226703755215,
+        "cost": 242.03894297635605,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.1905424200278164,
+        "cost": 934.3407510431155,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 655.0667593880389,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 31,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15577190542420027,
+        "cost": 189.0305980528512
+      },
+      "learned": {
+        "error": 0.25591098748261476,
+        "cost": 192.43532684283727,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2670375521557719,
+        "cost": 767.9374130737135,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 652.78859527121,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 31,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15577190542420027,
+        "cost": 189.0305980528512
+      },
+      "learned": {
+        "error": 0.16133518776077885,
+        "cost": 284.4965229485396,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1404728789986092,
+        "cost": 1011.5438108484005,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08762169680111266,
+        "cost": 652.78859527121,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 32,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17663421418636996,
+        "cost": 186.38525730180805
+      },
+      "learned": {
+        "error": 0.33240611961057026,
+        "cost": 157.5757997218359,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.2726008344923505,
+        "cost": 775.125173852573,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.1043115438108484,
+        "cost": 661.9847009735744,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 32,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17663421418636996,
+        "cost": 186.38525730180805
+      },
+      "learned": {
+        "error": 0.2239221140472879,
+        "cost": 241.81363004172462,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.1933240611961057,
+        "cost": 949.9735744089013,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.1043115438108484,
+        "cost": 661.9847009735744,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 33,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.75938803894297
+      },
+      "learned": {
+        "error": 0.29207232267037553,
+        "cost": 168.83310152990265,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25869262865090403,
+        "cost": 763.4130737134909,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 630.6620305980529,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 33,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16550764951321278,
+        "cost": 187.75938803894297
+      },
+      "learned": {
+        "error": 0.20723226703755215,
+        "cost": 252.74965229485397,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.14603616133518776,
+        "cost": 1000.961057023644,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 630.6620305980529,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 34,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17107093184979139,
+        "cost": 189.03198887343532
+      },
+      "learned": {
+        "error": 0.29624478442280944,
+        "cost": 167.25312934631432,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2573018080667594,
+        "cost": 790.6369958275383,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 667.0834492350486,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 34,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.17107093184979139,
+        "cost": 189.03198887343532
+      },
+      "learned": {
+        "error": 0.1933240611961057,
+        "cost": 277.92906815020865,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1011.3310152990264,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 667.0834492350486,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 35,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16968011126564672,
+        "cost": 188.3490959666203
+      },
+      "learned": {
+        "error": 0.3129346314325452,
+        "cost": 160.3769123783032,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.3198887343532684,
+        "cost": 670.1015299026426,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 662.9207232267038,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 35,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16968011126564672,
+        "cost": 188.3490959666203
+      },
+      "learned": {
+        "error": 0.20723226703755215,
+        "cost": 248.75521557719054,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.19888734353268428,
+        "cost": 930.162726008345,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 662.9207232267038,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 36,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14603616133518776,
+        "cost": 185.48956884561892
+      },
+      "learned": {
+        "error": 0.20584144645340752,
+        "cost": 224.63699582753824,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19888734353268428,
+        "cost": 857.201668984701,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08205841446453407,
+        "cost": 634.2517385257302,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 36,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.1349095966620306,
+        "cost": 565.8595271210014
+      },
+      "learned": {
+        "error": 0.14325452016689846,
+        "cost": 304.01112656467313,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.09874826147426982,
+        "cost": 1072.9457579972184,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08205841446453407,
+        "cost": 634.2517385257302,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 37,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 185.41863699582754
+      },
+      "learned": {
+        "error": 0.29207232267037553,
+        "cost": 163.3087621696801,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26842837273991654,
+        "cost": 758.1821974965229,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 630.6091794158554,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 37,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 185.41863699582754
+      },
+      "learned": {
+        "error": 0.17246175243393602,
+        "cost": 273.7510431154381,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1905424200278164,
+        "cost": 922.8456189151599,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 630.6091794158554,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 38,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15299026425591097,
+        "cost": 184.85535465924895
+      },
+      "learned": {
+        "error": 0.25869262865090403,
+        "cost": 194.60917941585535,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.3184979137691238,
+        "cost": 659.4700973574409,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 622.63421418637,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 38,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15299026425591097,
+        "cost": 184.85535465924895
+      },
+      "learned": {
+        "error": 0.16828929068150209,
+        "cost": 262.82058414464535,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.20445062586926285,
+        "cost": 897.7621696801112,
+        "within_alpha": false
+      },
+      "agreement": {
+        "error": 0.10292072322670376,
+        "cost": 622.63421418637,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 39,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.03198887343532
+      },
+      "learned": {
+        "error": 0.2698191933240612,
+        "cost": 190.7065368567455,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25869262865090403,
+        "cost": 773.6578581363004,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09457579972183588,
+        "cost": 635.1641168289291,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 39,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.03198887343532
+      },
+      "learned": {
+        "error": 0.18219749652294853,
+        "cost": 259.8901251738526,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1502086230876217,
+        "cost": 1001.5438108484005,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09457579972183588,
+        "cost": 635.1641168289291,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 40,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 186.22253129346313
+      },
+      "learned": {
+        "error": 0.29346314325452016,
+        "cost": 159.44089012517387,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26425591098748263,
+        "cost": 767.2767732962448,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 636.0041724617524,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 40,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15855354659248957,
+        "cost": 186.22253129346313
+      },
+      "learned": {
+        "error": 0.17524339360222532,
+        "cost": 259.2461752433936,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15577190542420027,
+        "cost": 988.3908205841446,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 636.0041724617524,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 41,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 189.04450625869262
+      },
+      "learned": {
+        "error": 0.2614742698191933,
+        "cost": 189.88734353268427,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2573018080667594,
+        "cost": 767.2002781641169,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08344923504867872,
+        "cost": 636.1210013908205,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 41,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15438108484005564,
+        "cost": 189.04450625869262
+      },
+      "learned": {
+        "error": 0.17107093184979139,
+        "cost": 257.56189151599443,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1502086230876217,
+        "cost": 999.3630041724617,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08344923504867872,
+        "cost": 636.1210013908205,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 42,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.17385257301808
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 184.7816411682893,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2517385257301808,
+        "cost": 741.8484005563282,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 625.6467315716272,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 42,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 187.17385257301808
+      },
+      "learned": {
+        "error": 0.20166898470097358,
+        "cost": 248.47566063977746,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.14325452016689846,
+        "cost": 988.3810848400557,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09735744089012517,
+        "cost": 625.6467315716272,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 43,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.14881780250347706,
+        "cost": 187.4575799721836
+      },
+      "learned": {
+        "error": 0.22948539638386647,
+        "cost": 202.69541029207232,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25034770514603616,
+        "cost": 753.1015299026426,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 623.6425591098748,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 43,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.12517385257301808,
+        "cost": 566.3031988873436
+      },
+      "learned": {
+        "error": 0.17246175243393602,
+        "cost": 262.09874826147427,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14464534075104313,
+        "cost": 984.8609179415855,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 623.6425591098748,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 44,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1502086230876217,
+        "cost": 185.3143254520167
+      },
+      "learned": {
+        "error": 0.2726008344923505,
+        "cost": 183.769123783032,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2614742698191933,
+        "cost": 744.7190542420028,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 621.7148817802504,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 44,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.1502086230876217,
+        "cost": 563.2141863699583
+      },
+      "learned": {
+        "error": 0.15159944367176634,
+        "cost": 276.7913769123783,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 960.9972183588317,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 621.7148817802504,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 45,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.0723226703755
+      },
+      "learned": {
+        "error": 0.29763560500695413,
+        "cost": 163.18915159944368,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2795549374130737,
+        "cost": 740.230876216968,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 629.884561891516,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 45,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1627260083449235,
+        "cost": 186.0723226703755
+      },
+      "learned": {
+        "error": 0.18636995827538247,
+        "cost": 266.20305980528514,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19610570236439498,
+        "cost": 911.3949930458971,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09318497913769123,
+        "cost": 629.884561891516,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 46,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15299026425591097,
+        "cost": 182.54659248956884
+      },
+      "learned": {
+        "error": 0.25591098748261476,
+        "cost": 173.7941585535466,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2753824756606398,
+        "cost": 719.346314325452,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 619.9972183588317,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 46,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.15299026425591097,
+        "cost": 182.54659248956884
+      },
+      "learned": {
+        "error": 0.1627260083449235,
+        "cost": 265.10709318497914,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19193324061196107,
+        "cost": 881.4061196105703,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.08623087621696801,
+        "cost": 619.9972183588317,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 47,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 187.88038942976357
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 184.56189151599443,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.282336578581363,
+        "cost": 751.4589707927678,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09596662030598054,
+        "cost": 650.0250347705146,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 47,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1571627260083449,
+        "cost": 187.88038942976357
+      },
+      "learned": {
+        "error": 0.1599443671766342,
+        "cost": 295.38525730180805,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.19749652294853964,
+        "cost": 930.2726008344923,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.09596662030598054,
+        "cost": 650.0250347705146,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 48,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 185.4242002781641
+      },
+      "learned": {
+        "error": 0.27399165507649514,
+        "cost": 191.03337969401946,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2670375521557719,
+        "cost": 732.2517385257302,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 621.8331015299026,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 48,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.16133518776077885,
+        "cost": 185.4242002781641
+      },
+      "learned": {
+        "error": 0.1835883171070932,
+        "cost": 261.1696801112656,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14603616133518776,
+        "cost": 988.3379694019471,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0917941585535466,
+        "cost": 621.8331015299026,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 49,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "THINK",
+        "error": 0.1474269819193324,
+        "cost": 184.02086230876216
+      },
+      "learned": {
+        "error": 0.26008344923504867,
+        "cost": 184.2086230876217,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2614742698191933,
+        "cost": 708.5549374130737,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 596.5549374130737,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 49,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "VOTE",
+        "error": 0.13073713490959665,
+        "cost": 560.4492350486787
+      },
+      "learned": {
+        "error": 0.17246175243393602,
+        "cost": 252.0027816411683,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15159944367176634,
+        "cost": 928.3852573018081,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0890125173852573,
+        "cost": 596.5549374130737,
+        "within_alpha": true
+      }
+    }
+  ]
+}

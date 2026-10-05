@@ -1,0 +1,69 @@
+{
+  "config": {
+    "adapt_dynamics": true,
+    "budget": {
+      "max_cost": 120.0,
+      "max_logical_latency_ms": 6500.0,
+      "max_mc_samples": 20000,
+      "max_observations": 18,
+      "max_probes": 5,
+      "max_queries": 12,
+      "observe_cost": 1.5,
+      "observe_latency_ms": 12.0,
+      "passive_cost": 0.18,
+      "passive_latency_ms": 2.0,
+      "probe_cost": 2.0,
+      "probe_latency_ms": 30.0,
+      "query_cost": 1.1,
+      "sample_cost": 0.004,
+      "sample_latency_ms": 0.012
+    },
+    "cell_size": 0.5,
+    "channel_backend": "sionna",
+    "channel_min_delivery": 0.45,
+    "dt": 0.4,
+    "goal_tolerance": 0.32,
+    "horizon": 3,
+    "max_epistemic_streak": 4,
+    "max_steps": 160,
+    "mc_delta": 0.1,
+    "mc_looks": [
+      48,
+      144,
+      432
+    ],
+    "risk_threshold": 0.18,
+    "source_threshold": 0.45,
+    "stability_threshold": 0.36,
+    "vision_artifact": "artifacts/vision_ensemble.pt",
+    "world_size": 10.0
+  },
+  "outcome": "success",
+  "reason": "physical_arrival",
+  "reference_episode_sha256": "606caf9807ff475dc5f95f213877887b59d98238b8403ee6ae3b269259a1047c",
+  "reference_protocol_hash": "5f35cd436151cc1f81a6457ed8a16926aafc13e56c5fd5fff5e4c71da35372a5",
+  "resources": {
+    "bytes_sent": 0,
+    "cost": 18.648,
+    "logical_latency_ms": 123.10399999999986,
+    "mc_samples": 2592,
+    "observations": 0,
+    "probes": 0,
+    "queries": 0
+  },
+  "scenario": {
+    "camera_brightness": 1.0,
+    "camera_noise": 0.035,
+    "camera_occlusion": 0.0,
+    "camera_style": 2,
+    "channel_snr_db": 8.0,
+    "layout_family": 2,
+    "localization_sigma": 0.045,
+    "name": "nominal",
+    "onset": 0,
+    "speed_gain": 1.0
+  },
+  "seed": 1000,
+  "steps": 46,
+  "world_hash": "ddc20bee3910766ed421d7c55822b837cce83e2d16ab39be79455057488e5351"
+}

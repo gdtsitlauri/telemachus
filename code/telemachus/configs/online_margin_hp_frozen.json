@@ -1,0 +1,17 @@
+{
+  "version": "online-margin-hp-1",
+  "freeze_date": "2026-10-04",
+  "study": "deterministic finite-horizon collision control under shift with a human-handover fallback (Theorem A)",
+  "alpha": 0.03,
+  "s_1": 0.04,
+  "s_1_source": "v6 main certificate",
+  "s_f": 0.16,
+  "fallback": "s >= s_f: episode handed to a human before any motion (deferred; collision impossible)",
+  "update_rule": "s <- max(0, s + eta * (collision - alpha_star)) after every episode; no clip on the safe side",
+  "alpha_star": "alpha - (s_f - s_1 + eta) / (eta * K)",
+  "eta": 0.06,
+  "episodes_per_stream": 480,
+  "stream_bases": [50000, 51000, 52000],
+  "shift": "SEVERE scenarios in analysis/online_margin.py, same seeds and order as the online-margin final run",
+  "selection_statement": "eta chosen so that alpha_star stays near 0.024 for K = 480; no held-out outcome of this rule was seen before freezing."
+}

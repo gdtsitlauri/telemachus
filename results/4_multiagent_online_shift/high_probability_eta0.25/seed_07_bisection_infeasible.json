@@ -1,0 +1,20 @@
+{
+  "seed": 7,
+  "certified_nominal": true,
+  "theta_nominal": 0.7,
+  "auc_nominal": {
+    "n": 18000,
+    "error_rate": 0.8393888888888889,
+    "entropy": 0.548677397147201,
+    "margin": 0.5796779193756317,
+    "learned": 0.9949011471328638
+  },
+  "auc_shift": {
+    "n": 18000,
+    "error_rate": 0.8183333333333334,
+    "entropy": 0.426732541506547,
+    "margin": 0.4393428917248495,
+    "learned": 0.9332754826427169
+  },
+  "alpha_star": null
+}

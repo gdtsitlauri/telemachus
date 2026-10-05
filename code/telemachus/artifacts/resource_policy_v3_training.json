@@ -1,0 +1,162 @@
+{
+  "created": "2026-10-03T20:30:43.157427+00:00",
+  "data_sha256": "9eba04cf9829fb86546800f96ca0f676a1a075f1803913fbdee734f311670dd6",
+  "limitations": "Calibration is on synthetic development interventions; no real-world or OOD reliability guarantee.",
+  "metrics": {
+    "ACT": {
+      "brier": 0.0,
+      "lookahead_brier": 0.0,
+      "lookahead_positive_rate": 1.0,
+      "n_calibration": 758,
+      "n_test": 607,
+      "n_train": 3401,
+      "test_positive_rate": 1.0
+    },
+    "ASK": {
+      "auc": 0.8550138233859164,
+      "brier": 0.11745409182215531,
+      "lookahead_auc": 0.9393319463707814,
+      "lookahead_brier": 0.021421888783417085,
+      "lookahead_positive_rate": 0.9724626278520849,
+      "n_calibration": 1398,
+      "n_test": 1271,
+      "n_train": 6523,
+      "test_positive_rate": 0.7442958300550747
+    },
+    "OBSERVE": {
+      "auc": 0.726390083118372,
+      "brier": 0.06762914241674096,
+      "lookahead_auc": 0.9228336653386454,
+      "lookahead_brier": 0.00960467734284947,
+      "lookahead_positive_rate": 0.987411487018096,
+      "n_calibration": 1398,
+      "n_test": 1271,
+      "n_train": 6523,
+      "test_positive_rate": 0.9150275373721479
+    },
+    "PROBE": {
+      "auc": 0.5250410509031198,
+      "brier": 0.08088647907470191,
+      "lookahead_auc": 0.9326315789473685,
+      "lookahead_brier": 0.00415781314622285,
+      "lookahead_positive_rate": 0.9958071278825996,
+      "n_calibration": 697,
+      "n_test": 477,
+      "n_train": 2913,
+      "test_positive_rate": 0.9119496855345912
+    },
+    "SIMULATE": {
+      "auc": 0.973572773270233,
+      "brier": 0.04342709677349415,
+      "lookahead_auc": 0.9617592592592592,
+      "lookahead_brier": 0.010987851498233272,
+      "lookahead_positive_rate": 0.9852216748768473,
+      "n_calibration": 1354,
+      "n_test": 1218,
+      "n_train": 6329,
+      "test_positive_rate": 0.8284072249589491
+    },
+    "blind_ACT": {
+      "brier": 0.0,
+      "lookahead_brier": 0.0,
+      "lookahead_positive_rate": 1.0,
+      "n_calibration": 758,
+      "n_test": 607,
+      "n_train": 3401,
+      "test_positive_rate": 1.0
+    },
+    "blind_ASK": {
+      "auc": 0.8135143925841599,
+      "brier": 0.13786945921734,
+      "lookahead_auc": 0.9117313915857606,
+      "lookahead_brier": 0.022354164474322206,
+      "lookahead_positive_rate": 0.9724626278520849,
+      "n_calibration": 1398,
+      "n_test": 1271,
+      "n_train": 6523,
+      "test_positive_rate": 0.7442958300550747
+    },
+    "blind_OBSERVE": {
+      "auc": 0.7209404159103213,
+      "brier": 0.06759549265249365,
+      "lookahead_auc": 0.8636952191235059,
+      "lookahead_brier": 0.009688764580765721,
+      "lookahead_positive_rate": 0.987411487018096,
+      "n_calibration": 1398,
+      "n_test": 1271,
+      "n_train": 6523,
+      "test_positive_rate": 0.9150275373721479
+    },
+    "blind_PROBE": {
+      "auc": 0.6156267104542966,
+      "brier": 0.07904710805879014,
+      "lookahead_auc": 0.9557894736842105,
+      "lookahead_brier": 0.0040998842289510316,
+      "lookahead_positive_rate": 0.9958071278825996,
+      "n_calibration": 697,
+      "n_test": 477,
+      "n_train": 2913,
+      "test_positive_rate": 0.9119496855345912
+    },
+    "blind_SIMULATE": {
+      "auc": 0.9752964942313437,
+      "brier": 0.04323650425062962,
+      "lookahead_auc": 0.9716666666666666,
+      "lookahead_brier": 0.011372206275603265,
+      "lookahead_positive_rate": 0.9852216748768473,
+      "n_calibration": 1354,
+      "n_test": 1218,
+      "n_train": 6329,
+      "test_positive_rate": 0.8284072249589491
+    }
+  },
+  "model": "ExtraTrees multi-output acquisition resolution/cost/gain predictions with held-seed isotonic calibration",
+  "splits": {
+    "calibration": [
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033
+    ],
+    "test": [
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039
+    ],
+    "train": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+    ]
+  }
+}

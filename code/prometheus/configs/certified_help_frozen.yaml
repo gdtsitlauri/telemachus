@@ -1,0 +1,22 @@
+version: 3.0.0
+freeze_date: 2026-10-03
+study: certified human-in-the-loop help (deployment-time expert queries)
+pilot_seeds_used_for_design: [0]
+heldout_seeds: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+methods: [ppo_local_ft, ppo_sparse_replay, ppo_sparse_ewc, ppo_dense_replay_active, prometheus_v2_budgeted]
+gates: [learned, entropy, margin, random]
+guarantee:
+  loss: team failure (not all agents at the goal at the horizon)
+  alpha: 0.10
+  delta: 0.10
+  procedure: Learn-then-Test, fixed sequence from most to least help, exact binomial p-values
+episodes:
+  gate_training_per_task: 200   # learned gate only, DAgger iterations: 3
+  calibration_per_task: 100     # 600 calibration episodes per (seed, method, gate)
+  test_per_task: 200            # 1200 test episodes per (seed, method, gate)
+streams:  # environment generator seeds; disjoint from training (2026 + seed)
+  gate: 700000 + 10 * seed
+  calibration: 900000 + 10 * seed
+  test: 950000 + 10 * seed
+primary_comparison: expert queries per episode at the certified level, learned gate vs entropy gate, paired by (seed, method)
+selection_statement: "Gate design and alpha were chosen on pilot seed 0 only and frozen before held-out seeds 5-24."

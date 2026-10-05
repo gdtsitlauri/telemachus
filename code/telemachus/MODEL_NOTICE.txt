@@ -1,0 +1,24 @@
+TELEMACHUS v5 code, the learned resource policy, and the locally trained TileCNN ensemble use the included MIT license.
+The preserved legacy_v4 modules remain byte-for-byte copies of the delivered v4 source.
+
+Visual mission grounding uses HuggingFaceTB/SmolVLM2-256M-Video-Instruct,
+revision 067788b187b95ebe7b2e040b3e4299e342e5b8fd, licensed Apache-2.0 by its publisher.
+https://huggingface.co/HuggingFaceTB/SmolVLM2-256M-Video-Instruct
+The pretrained VLM weights are downloaded separately by the vlm-test command.
+They are not redistributed in this package. No remote custom model code is executed.
+
+The radio implementation invokes the actual Sionna 2.2.0 PyTorch AWGN block.
+https://nvlabs.github.io/sionna/
+This is a simulated BPSK/repetition/CRC link, not deployed 6G hardware or a complete 3GPP stack.
+
+Camera observations and physical navigation worlds are synthetic. The tiny CNN
+is trained locally, not an external pretrained robotics perception model.
+Source scores are explicit observable-residual heuristics, not learned or
+calibrated fault probabilities. The VLM selects a mission landmark; it is not a VLA.
+
+Resource acquisition is learned from offline interventions on copied synthetic
+worlds using observable features. ExtraTrees predictors have held-seed isotonic
+calibration. Calibration and performance remain conditional on the reported
+simulation datasets; ACT/PROBE prediction is not a safety certificate. Motion
+authorization is a separate simultaneous Monte Carlo bound under the internal
+belief distribution. Costs and logical latency are declared simulation proxies.

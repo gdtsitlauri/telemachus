@@ -1,0 +1,102 @@
+{
+  "navigation_code_hashes_match_frozen_protocol": {
+    "n_files": 65,
+    "all_match": true,
+    "mismatched": []
+  },
+  "navigation_episodes": [
+    {
+      "seed": "40000",
+      "scenario": "compound",
+      "stored": [
+        "collision",
+        "9.564000000000002",
+        "16"
+      ],
+      "rerun": [
+        "collision",
+        9.564000000000002,
+        16
+      ],
+      "match": true
+    },
+    {
+      "seed": "40001",
+      "scenario": "compound",
+      "stored": [
+        "success",
+        "43.776",
+        "65"
+      ],
+      "rerun": [
+        "success",
+        43.776,
+        65
+      ],
+      "match": true
+    },
+    {
+      "seed": "40002",
+      "scenario": "compound",
+      "stored": [
+        "success",
+        "35.952",
+        "64"
+      ],
+      "rerun": [
+        "success",
+        35.952,
+        64
+      ],
+      "match": true
+    }
+  ],
+  "language_alpha_0.3": {
+    "learned": {
+      "stored": [
+        0.26008344923504867,
+        199.07649513212795
+      ],
+      "rerun": [
+        0.26008344923504867,
+        199.07649513212795
+      ],
+      "match": true
+    },
+    "confidence": {
+      "stored": [
+        0.20584144645340752,
+        867.0945757997218
+      ],
+      "rerun": [
+        0.20584144645340752,
+        867.0945757997218
+      ],
+      "match": true
+    },
+    "agreement": {
+      "stored": [
+        0.08205841446453407,
+        653.9860917941586
+      ],
+      "rerun": [
+        0.08205841446453407,
+        653.9860917941586
+      ],
+      "match": true
+    }
+  },
+  "multiagent_seed_5": {
+    "stored": [
+      0.45,
+      0.09208333587894837,
+      0.9810261697178011
+    ],
+    "rerun": [
+      0.45,
+      0.09208333587894837,
+      0.9810261697178011
+    ],
+    "match": true
+  }
+}

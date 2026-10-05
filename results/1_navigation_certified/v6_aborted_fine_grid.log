@@ -1,0 +1,43 @@
+﻿[main] protocol frozen
+python.exe : jitc_llvm_init(): LLVM API initialization failed ..
+At line:1 char:532
++ ... t=Get-Date; & $py scripts/run_v6.py --config configs/v6_main.json --w ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (jitc_llvm_init(...ation failed ..:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..

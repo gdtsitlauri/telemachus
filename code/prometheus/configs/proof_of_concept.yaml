@@ -1,0 +1,26 @@
+benchmark:
+  name: ContinualCoordinationBandit
+  n_agents: 3
+  n_tasks: 8
+  latent_dim: 6
+  local_signal_dim: 2
+  nuisance_dim: 6
+  task_context_dim: 8
+training:
+  seeds: [0, 1, 2, 3, 4]
+  online_steps_per_task: 60
+  batch_size: 48
+  replay_batch: 32
+resources:
+  memory_budget: 256
+  query_budget_per_task: 24
+  sparse_comm_top_k: 1
+  dense_comm_top_k: 2
+prometheus_budgeted:
+  ssl_steps: 40
+  warmstart_steps: 50
+  query_entropy_threshold: 0.65
+  learning_rate: 0.002
+  entropy_coefficient: 0.01
+  query_loss_weight: 2.0
+  replay_loss_weight: 1.0

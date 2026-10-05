@@ -1,0 +1,68 @@
+﻿seed 5 done
+seed 6 done
+seed 7 done
+seed 8 done
+seed 9 done
+seed 10 done
+seed 11 done
+seed 12 done
+seed 13 done
+seed 14 done
+seed 15 done
+seed 16 done
+seed 17 done
+seed 18 done
+seed 19 done
+seed 20 done
+seed 21 done
+seed 22 done
+seed 23 done
+seed 24 done
+{
+  "n_seeds": 20,
+  "n_run": 19,
+  "alpha_star_mean": 0.09176394813939144,
+  "online_hp": {
+    "failure_mean": 0.09213450546850238,
+    "failure_max": 0.09277778035650651,
+    "seeds_failure_le_alpha": 19,
+    "queries_mean": 22.34929824720349,
+    "fallback_fraction_mean": 0.09385964912280702
+  },
+  "full_help": {
+    "failure_mean": 0.06338450391041606,
+    "failure_max": 0.06666667014360428,
+    "seeds_le_p0": 19,
+    "queries_mean": 30.0
+  },
+  "auc": {
+    "auc_nominal": {
+      "entropy": {
+        "mean": 0.3644174267887461,
+        "sd": 0.06405261030061885
+      },
+      "margin": {
+        "mean": 0.3721280119888826,
+        "sd": 0.06982319780583181
+      },
+      "learned": {
+        "mean": 0.9776444012239154,
+        "sd": 0.009620154208934261
+      }
+    },
+    "auc_shift": {
+      "entropy": {
+        "mean": 0.3581516764854682,
+        "sd": 0.04713705119426344
+      },
+      "margin": {
+        "mean": 0.3610275256087361,
+        "sd": 0.04557513578474836
+      },
+      "learned": {
+        "mean": 0.9258310673880186,
+        "sd": 0.016906778548457655
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Tested with Python 3.12.14 on CPU. Install PyTorch from its CPU index first.
+numpy==2.3.5
+scipy==1.17.0
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+pandas==2.2.3
+matplotlib==3.10.8
+pillow==12.3.0
+transformers==5.18.0
+huggingface-hub==1.33.0
+accelerate==1.15.0
+sionna==2.2.0
+sionna-rt==2.2.0
+num2words==0.5.14
+socksio==1.0.0
+fastapi==0.142.2
+uvicorn==0.54.0
+pytest==9.1.1
+httpx==0.28.1
+scikit-learn==1.8.0

@@ -1,0 +1,134 @@
+{
+  "created": "2026-10-02T14:39:42.249571+00:00",
+  "data_sha256": "24011aeec3583c36d4281621b5ae5fce563e170589d3b60c2f590cd6b7bdea6e",
+  "limitations": "Calibration is on synthetic development interventions; no real-world or OOD reliability guarantee.",
+  "metrics": {
+    "ACT": {
+      "brier": 0.00013630565662833745,
+      "n_calibration": 721,
+      "n_test": 586,
+      "n_train": 3176,
+      "test_positive_rate": 1.0
+    },
+    "ASK": {
+      "auc": 0.8406856495254286,
+      "brier": 0.09167524281540321,
+      "n_calibration": 1213,
+      "n_test": 1100,
+      "n_train": 5615,
+      "test_positive_rate": 0.8227272727272728
+    },
+    "OBSERVE": {
+      "auc": 0.5056976658837345,
+      "brier": 0.04608171068352778,
+      "n_calibration": 1213,
+      "n_test": 1100,
+      "n_train": 5615,
+      "test_positive_rate": 0.9527272727272728
+    },
+    "PROBE": {
+      "auc": 0.5729742536724056,
+      "brier": 0.06881730391666228,
+      "n_calibration": 691,
+      "n_test": 526,
+      "n_train": 2930,
+      "test_positive_rate": 0.9258555133079848
+    },
+    "SIMULATE": {
+      "auc": 0.9862831455904425,
+      "brier": 0.02552261418330688,
+      "n_calibration": 1185,
+      "n_test": 1071,
+      "n_train": 5468,
+      "test_positive_rate": 0.8674136321195145
+    },
+    "blind_ACT": {
+      "brier": 0.00010000000000000017,
+      "n_calibration": 721,
+      "n_test": 586,
+      "n_train": 3176,
+      "test_positive_rate": 1.0
+    },
+    "blind_ASK": {
+      "auc": 0.7885224536053266,
+      "brier": 0.11140102149748833,
+      "n_calibration": 1213,
+      "n_test": 1100,
+      "n_train": 5615,
+      "test_positive_rate": 0.8227272727272728
+    },
+    "blind_OBSERVE": {
+      "auc": 0.5086887110980622,
+      "brier": 0.04593124521528291,
+      "n_calibration": 1213,
+      "n_test": 1100,
+      "n_train": 5615,
+      "test_positive_rate": 0.9527272727272728
+    },
+    "blind_PROBE": {
+      "auc": 0.5258516295477282,
+      "brier": 0.06939537131751934,
+      "n_calibration": 691,
+      "n_test": 526,
+      "n_train": 2930,
+      "test_positive_rate": 0.9258555133079848
+    },
+    "blind_SIMULATE": {
+      "auc": 0.9865674130899498,
+      "brier": 0.025161410457005668,
+      "n_calibration": 1185,
+      "n_test": 1071,
+      "n_train": 5468,
+      "test_positive_rate": 0.8674136321195145
+    }
+  },
+  "model": "ExtraTrees multi-output acquisition resolution/cost/gain predictions with held-seed isotonic calibration",
+  "splits": {
+    "calibration": [
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033
+    ],
+    "test": [
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039
+    ],
+    "train": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027
+    ]
+  }
+}

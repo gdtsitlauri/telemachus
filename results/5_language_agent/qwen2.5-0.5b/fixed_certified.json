@@ -1,0 +1,88 @@
+{
+  "fixed_certified": {
+    "alpha_0.3": {
+      "candidates": [
+        {
+          "stage": "ANSWER",
+          "cal_error": 0.9383333333333334,
+          "cal_cost": 4.79,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "THINK",
+          "cal_error": 0.6083333333333333,
+          "cal_cost": 252.58833333333334,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "TOOL",
+          "cal_error": 0.6483333333333333,
+          "cal_cost": 172.33333333333334,
+          "p_value": 1.0,
+          "certified": false
+        }
+      ],
+      "selected": "EXPERT",
+      "test": {
+        "error": 0.0,
+        "cost": 1500.0,
+        "n": 719,
+        "within_alpha": true
+      }
+    },
+    "alpha_0.2": {
+      "candidates": [
+        {
+          "stage": "ANSWER",
+          "cal_error": 0.9383333333333334,
+          "cal_cost": 4.79,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "THINK",
+          "cal_error": 0.6083333333333333,
+          "cal_cost": 252.58833333333334,
+          "p_value": 1.0,
+          "certified": false
+        },
+        {
+          "stage": "TOOL",
+          "cal_error": 0.6483333333333333,
+          "cal_cost": 172.33333333333334,
+          "p_value": 1.0,
+          "certified": false
+        }
+      ],
+      "selected": "EXPERT",
+      "test": {
+        "error": 0.0,
+        "cost": 1500.0,
+        "n": 719,
+        "within_alpha": true
+      }
+    }
+  },
+  "stage_auc_test": {
+    "ANSWER": {
+      "n": 719,
+      "accuracy": 0.055632823365785816,
+      "confidence": 0.635898379970545,
+      "learned": 0.6121134020618557
+    },
+    "THINK": {
+      "n": 719,
+      "accuracy": 0.41585535465924894,
+      "confidence": 0.7113871635610766,
+      "learned": 0.808150183150183
+    },
+    "TOOL": {
+      "n": 664,
+      "accuracy": 0.3960843373493976,
+      "confidence": 0.7262926334354228,
+      "learned": 0.8695324426576145
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "protocol": {
+    "version": "3.0.0",
+    "freeze_date": "2026-10-03",
+    "study": "certified human-in-the-loop help (deployment-time expert queries)",
+    "pilot_seeds_used_for_design": [
+      0
+    ],
+    "heldout_seeds": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "methods": [
+      "ppo_local_ft",
+      "ppo_sparse_replay",
+      "ppo_sparse_ewc",
+      "ppo_dense_replay_active",
+      "prometheus_v2_budgeted"
+    ],
+    "gates": [
+      "learned",
+      "entropy",
+      "margin",
+      "random"
+    ],
+    "guarantee": {
+      "loss": "team failure (not all agents at the goal at the horizon)",
+      "alpha": 0.1,
+      "delta": 0.1,
+      "procedure": "Learn-then-Test, fixed sequence from most to least help, exact binomial p-values"
+    },
+    "episodes": {
+      "gate_training_per_task": 200,
+      "calibration_per_task": 100,
+      "test_per_task": 200
+    },
+    "streams": {
+      "gate": "700000 + 10 * seed",
+      "calibration": "900000 + 10 * seed",
+      "test": "950000 + 10 * seed"
+    },
+    "primary_comparison": "expert queries per episode at the certified level, learned gate vs entropy gate, paired by (seed, method)",
+    "selection_statement": "Gate design and alpha were chosen on pilot seed 0 only and frozen before held-out seeds 5-24."
+  },
+  "summary": {
+    "ppo_dense_replay_active": {
+      "learned": {
+        "n_seeds_certified": 19,
+        "queries_mean": 19.468815903914603,
+        "test_failure_mean": 0.08017543899385553,
+        "seeds_within_alpha": 19
+      },
+      "entropy": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.394122876619036,
+        "test_failure_mean": 0.06842105267079253,
+        "seeds_within_alpha": 19
+      },
+      "margin": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.454561534680817,
+        "test_failure_mean": 0.06732456072380669,
+        "seeds_within_alpha": 18
+      },
+      "random": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.919780731201172,
+        "test_failure_mean": 0.0636403507700092,
+        "seeds_within_alpha": 18
+      },
+      "learned_minus_entropy_queries": {
+        "mean": -9.925306972704435,
+        "ci95": [
+          -10.954517644330075,
+          -8.839516352352344
+        ],
+        "wilcoxon_p": 3.814697265625e-06,
+        "n_pairs": 19
+      },
+      "oracle_queries_mean": 19.521833372116088
+    },
+    "ppo_local_ft": {
+      "learned": {
+        "n_seeds_certified": 19,
+        "queries_mean": 21.67021942138672,
+        "test_failure_mean": 0.07846491215260405,
+        "seeds_within_alpha": 18
+      },
+      "entropy": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.984956139012386,
+        "test_failure_mean": 0.06289473685779069,
+        "seeds_within_alpha": 19
+      },
+      "margin": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.99127197265625,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "random": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "learned_minus_entropy_queries": {
+        "mean": -8.314736717625669,
+        "ci95": [
+          -8.582151189603303,
+          -8.050419988130269
+        ],
+        "wilcoxon_p": 3.814697265625e-06,
+        "n_pairs": 19
+      },
+      "oracle_queries_mean": 19.60295820236206
+    },
+    "ppo_sparse_ewc": {
+      "learned": {
+        "n_seeds_certified": 19,
+        "queries_mean": 20.11166672957571,
+        "test_failure_mean": 0.07942982390522957,
+        "seeds_within_alpha": 19
+      },
+      "entropy": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "margin": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "random": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "learned_minus_entropy_queries": {
+        "mean": -9.88833327042429,
+        "ci95": [
+          -10.110132418180767,
+          -9.688194919887342
+        ],
+        "wilcoxon_p": 3.814697265625e-06,
+        "n_pairs": 19
+      },
+      "oracle_queries_mean": 19.632958507537843
+    },
+    "ppo_sparse_replay": {
+      "learned": {
+        "n_seeds_certified": 19,
+        "queries_mean": 19.473114013671875,
+        "test_failure_mean": 0.0786403507778519,
+        "seeds_within_alpha": 19
+      },
+      "entropy": {
+        "n_seeds_certified": 19,
+        "queries_mean": 27.257631301879883,
+        "test_failure_mean": 0.06736842052716958,
+        "seeds_within_alpha": 19
+      },
+      "margin": {
+        "n_seeds_certified": 19,
+        "queries_mean": 27.230350895931846,
+        "test_failure_mean": 0.07070175421081092,
+        "seeds_within_alpha": 19
+      },
+      "random": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "learned_minus_entropy_queries": {
+        "mean": -7.784517288208008,
+        "ci95": [
+          -8.871395346992895,
+          -6.5940283173008964
+        ],
+        "wilcoxon_p": 3.814697265625e-06,
+        "n_pairs": 19
+      },
+      "oracle_queries_mean": 19.176625061035157
+    },
+    "prometheus_v2_budgeted": {
+      "learned": {
+        "n_seeds_certified": 19,
+        "queries_mean": 19.539692728142988,
+        "test_failure_mean": 0.07868420999301107,
+        "seeds_within_alpha": 19
+      },
+      "entropy": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.392236609207956,
+        "test_failure_mean": 0.06478070134395048,
+        "seeds_within_alpha": 19
+      },
+      "margin": {
+        "n_seeds_certified": 19,
+        "queries_mean": 29.834473760504473,
+        "test_failure_mean": 0.06342105234139844,
+        "seeds_within_alpha": 19
+      },
+      "random": {
+        "n_seeds_certified": 19,
+        "queries_mean": 30.0,
+        "test_failure_mean": 0.06197368412425643,
+        "seeds_within_alpha": 19
+      },
+      "learned_minus_entropy_queries": {
+        "mean": -9.852543881064967,
+        "ci95": [
+          -10.395732560910677,
+          -9.342061391629672
+        ],
+        "wilcoxon_p": 3.814697265625e-06,
+        "n_pairs": 19
+      },
+      "oracle_queries_mean": 18.883666706085204
+    }
+  }
+}

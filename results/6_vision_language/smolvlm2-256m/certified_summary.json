@@ -1,0 +1,45 @@
+{
+  "model": "HuggingFaceTB/SmolVLM2-256M-Video-Instruct",
+  "n_train": 300,
+  "n_calibration": 300,
+  "n_test": 300,
+  "vlm_accuracy_test": 0.44666666666666666,
+  "auc_test": {
+    "learned": 0.8288976802733321,
+    "confidence": 0.8009800395612299
+  },
+  "gates": {
+    "alpha_0.05": {
+      "learned": {
+        "theta": 0.77,
+        "error": 0.03333333333333333,
+        "expert_rate": 0.7866666666666666,
+        "within_alpha": true,
+        "n_test": 300
+      },
+      "confidence": {
+        "theta": 0.75,
+        "error": 0.03666666666666667,
+        "expert_rate": 0.79,
+        "within_alpha": true,
+        "n_test": 300
+      }
+    },
+    "alpha_0.1": {
+      "learned": {
+        "theta": 0.67,
+        "error": 0.08,
+        "expert_rate": 0.6666666666666667,
+        "within_alpha": true,
+        "n_test": 300
+      },
+      "confidence": {
+        "theta": 0.73,
+        "error": 0.05,
+        "expert_rate": 0.74,
+        "within_alpha": true,
+        "n_test": 300
+      }
+    }
+  }
+}

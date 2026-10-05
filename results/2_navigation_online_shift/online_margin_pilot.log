@@ -1,0 +1,3 @@
+﻿0.04 {'n': 80, 'collision': 0.0375, 'success': 0.6375, 'deferred': 0.325, 'cost': 68.41834999999999}
+0.08 {'n': 80, 'collision': 0.0, 'success': 0.625, 'deferred': 0.375, 'cost': 76.52574999999999}
+0.12 {'n': 80, 'collision': 0.025, 'success': 0.4, 'deferred': 0.575, 'cost': 92.11284999999998}

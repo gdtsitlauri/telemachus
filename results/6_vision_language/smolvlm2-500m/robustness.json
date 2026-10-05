@@ -1,0 +1,39 @@
+{
+  "auc_diff_test": -0.016368869168965183,
+  "auc_diff_ci95": [
+    -0.049370402817850365,
+    0.01666967016361281
+  ],
+  "splits": {
+    "alpha_0.05": {
+      "learned": {
+        "certified": 50,
+        "within_alpha": 45,
+        "error_mean": 0.03426666666666666,
+        "expert_rate_mean": 0.20959999999999998
+      },
+      "confidence": {
+        "certified": 50,
+        "within_alpha": 45,
+        "error_mean": 0.030866666666666664,
+        "expert_rate_mean": 0.18900000000000003
+      },
+      "learned_fewer_expert_calls": "15/50"
+    },
+    "alpha_0.1": {
+      "learned": {
+        "certified": 50,
+        "within_alpha": 45,
+        "error_mean": 0.07533333333333332,
+        "expert_rate_mean": 0.08026666666666665
+      },
+      "confidence": {
+        "certified": 50,
+        "within_alpha": 47,
+        "error_mean": 0.0712,
+        "expert_rate_mean": 0.0734
+      },
+      "learned_fewer_expert_calls": "17/50"
+    }
+  }
+}

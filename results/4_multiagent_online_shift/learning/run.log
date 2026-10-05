@@ -1,0 +1,33 @@
+﻿seed 5 done
+seed 6 done
+seed 7 done
+seed 8 done
+seed 9 done
+seed 10 done
+seed 11 done
+seed 12 done
+seed 13 done
+seed 14 done
+seed 15 done
+seed 16 done
+seed 17 done
+seed 18 done
+seed 19 done
+seed 20 done
+seed 21 done
+seed 22 done
+seed 23 done
+seed 24 done
+{
+  "n_run": 19,
+  "failure_mean": 0.09195175693092639,
+  "failure_max": 0.0923611137146751,
+  "seeds_failure_le_alpha": 19,
+  "queries_mean": 21.252463447211078,
+  "queries_second_half_mean": 21.05315789473684,
+  "fallback_fraction_mean": 0.02907894736842105,
+  "auc_shift_final_gate": {
+    "learned": 0.9208027528329044,
+    "entropy": 0.3593520705627076
+  }
+}

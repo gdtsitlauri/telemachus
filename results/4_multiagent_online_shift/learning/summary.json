@@ -1,0 +1,73 @@
+{
+  "protocol": {
+    "version": "3.3.0",
+    "freeze_date": "2026-10-04",
+    "study": "guaranteed online help control while the help gate keeps learning during deployment (Corollary of Theorem B)",
+    "pilot_seeds_used_for_design": [
+      0
+    ],
+    "heldout_seeds": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "method": "prometheus_v2_budgeted",
+    "guarantee": {
+      "alpha": 0.1,
+      "delta": 0.1
+    },
+    "shift": {
+      "cue_noise": 1.0,
+      "slip_prob": 0.04
+    },
+    "fallback": {
+      "action": "full help (theta <= 0)",
+      "declared_p0": 0.08
+    },
+    "online_update": {
+      "rule": "theta <- min(1.01, theta - eta * (chunk_failure - alpha_star)), no lower clip",
+      "eta": 0.5
+    },
+    "deployment": {
+      "chunks": 1200,
+      "episodes_per_task_per_chunk": 1
+    },
+    "learning": {
+      "retrain_every_chunks": 100,
+      "labels": "only steps where help was asked (expert action revealed)",
+      "base_data": "nominal stream 800000+10*seed, 50 episodes per task"
+    },
+    "compared_to": "results/4_multiagent_online_shift/high_probability (same seeds, streams, p0, eta, K; gate frozen)",
+    "selection_statement": "retrain_every fixed a priori (12 refits per deployment); no held-out outcome of this rule seen before freezing."
+  },
+  "summary": {
+    "n_run": 19,
+    "failure_mean": 0.09195175693092639,
+    "failure_max": 0.0923611137146751,
+    "seeds_failure_le_alpha": 19,
+    "queries_mean": 21.252463447211078,
+    "queries_second_half_mean": 21.05315789473684,
+    "fallback_fraction_mean": 0.02907894736842105,
+    "auc_shift_final_gate": {
+      "learned": 0.9208027528329044,
+      "entropy": 0.3593520705627076
+    }
+  }
+}

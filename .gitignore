@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv*/
+# model / dataset caches (downloaded on demand)
+.cache/
+hf/
+# local run outputs (final results live in results/)
+code/telemachus/results/
+code/prometheus/results/
+# Office lock and temp files
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+# MSc thesis and defence slides are kept out of the public repository
+thesis/
+presentation/

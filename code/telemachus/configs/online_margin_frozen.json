@@ -1,0 +1,19 @@
+{
+  "version": "online-margin-1",
+  "freeze_date": "2026-10-04",
+  "study": "keeping the certified collision rate under deployment shift by online margin adaptation",
+  "alpha": 0.03,
+  "start_margin": 0.04,
+  "start_margin_source": "v6 main certificate (results/v6/main/calibration)",
+  "conservative_margin": 0.08,
+  "margin_bounds": [0.0, 0.16],
+  "update_rule": "margin <- clip(margin + eta * (chunk_collision_rate - alpha), 0, 0.16)",
+  "eta": 0.25,
+  "seeds_per_chunk": 3,
+  "episodes_per_chunk": 12,
+  "chunks": 40,
+  "stream_bases": [50000, 51000, 52000],
+  "shift": "SEVERE scenarios in analysis/online_margin.py (visual, localization .55, dynamics .28, compound)",
+  "pilot": "results/online_margin/pilot.json, development seeds 2400-2419 and 12000-12039 only",
+  "selection_statement": "Shift severity was increased once on development seeds so that the static certified margin violates alpha; eta and chunking were set from the pilot's collision scale before any final seed was run. Final seeds 50000+ are disjoint from all development, calibration and test seeds."
+}

@@ -1,0 +1,744 @@
+﻿[main] protocol frozen
+python.exe : jitc_llvm_init(): LLVM API initialization failed ..
+At line:1 char:532
++ ... t=Get-Date; & $py scripts/run_v6.py --config configs/v6_main.json --w ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (jitc_llvm_init(...ation failed ..:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+[main] calibrated
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified_stress: nominal finished (80 episodes)
+certified_stress: visual finished (160 episodes)
+certified_stress: localization finished (240 episodes)
+certified_stress: dynamics finished (320 episodes)
+certified_stress: radio finished (400 episodes)
+certified_stress: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified_stress: nominal finished (80 episodes)
+certified_stress: visual finished (160 episodes)
+certified_stress: localization finished (240 episodes)
+certified_stress: dynamics finished (320 episodes)
+certified_stress: radio finished (400 episodes)
+certified_stress: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified_stress: nominal finished (80 episodes)
+certified_stress: visual finished (160 episodes)
+certified_stress: localization finished (240 episodes)
+certified_stress: dynamics finished (320 episodes)
+certified_stress: radio finished (400 episodes)
+certified_stress: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified_stress: nominal finished (80 episodes)
+certified_stress: visual finished (160 episodes)
+certified_stress: localization finished (240 episodes)
+certified_stress: dynamics finished (320 episodes)
+certified_stress: radio finished (400 episodes)
+certified_stress: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified_stress: nominal finished (80 episodes)
+certified_stress: visual finished (160 episodes)
+certified_stress: localization finished (240 episodes)
+certified_stress: dynamics finished (320 episodes)
+certified_stress: radio finished (400 episodes)
+certified_stress: compound finished (480 episodes)
+[main] tested
+[budget] protocol frozen
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+calibration: nominal finished (60 episodes)
+calibration: visual finished (120 episodes)
+calibration: localization finished (180 episodes)
+calibration: dynamics finished (240 episodes)
+calibration: radio finished (300 episodes)
+calibration: compound finished (360 episodes)
+[budget] calibrated
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+jitc_llvm_init(): LLVM API initialization failed ..
+certified: nominal finished (80 episodes)
+certified: visual finished (160 episodes)
+certified: localization finished (240 episodes)
+certified: dynamics finished (320 episodes)
+certified: radio finished (400 episodes)
+certified: compound finished (480 episodes)
+[budget] tested
+{
+  "main": {
+    "telemachus": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 9,
+      "collision_rate": 0.01875,
+      "collision_ci95": [
+        0.008608652853948361,
+        0.03529397347599891
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.8875,
+      "deferred": 0.09375,
+      "cost_mean": 36.55287499999999,
+      "cost_per_success": 41.18633802816901
+    },
+    "no_expert": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 9,
+      "collision_rate": 0.01875,
+      "collision_ci95": [
+        0.008608652853948361,
+        0.03529397347599891
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.8854166666666666,
+      "deferred": 0.09583333333333334,
+      "cost_mean": 35.98225,
+      "cost_per_success": 40.63877647058823
+    },
+    "no_learning": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 15,
+      "collision_rate": 0.03125,
+      "collision_ci95": [
+        0.017593750188650156,
+        0.05101887611740652
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": false,
+      "success": 0.8979166666666667,
+      "deferred": 0.07083333333333333,
+      "cost_mean": 37.861533333333334,
+      "cost_per_success": 42.16597679814385
+    },
+    "budget_voi": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 14,
+      "collision_rate": 0.029166666666666667,
+      "collision_ci95": [
+        0.016035508326420398,
+        0.04845285622306391
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.88125,
+      "deferred": 0.08958333333333333,
+      "cost_mean": 44.04508333333333,
+      "cost_per_success": 49.98023640661938
+    },
+    "confidence_gate": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 13,
+      "collision_rate": 0.027083333333333334,
+      "collision_ci95": [
+        0.014497834757211213,
+        0.0458680620889895
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.9083333333333333,
+      "deferred": 0.06458333333333334,
+      "cost_mean": 40.427825,
+      "cost_per_success": 44.507697247706425
+    }
+  },
+  "main_stress": {
+    "telemachus": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 12,
+      "collision_rate": 0.025,
+      "collision_ci95": [
+        0.012983091511373815,
+        0.04326247570846205
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.9104166666666667,
+      "deferred": 0.06458333333333334,
+      "cost_mean": 42.91003333333333,
+      "cost_per_success": 47.13230205949657
+    },
+    "no_expert": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 12,
+      "collision_rate": 0.025,
+      "collision_ci95": [
+        0.012983091511373815,
+        0.04326247570846205
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.9,
+      "deferred": 0.075,
+      "cost_mean": 42.76116666666666,
+      "cost_per_success": 47.5124074074074
+    },
+    "no_learning": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 15,
+      "collision_rate": 0.03125,
+      "collision_ci95": [
+        0.017593750188650156,
+        0.05101887611740652
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": false,
+      "success": 0.8291666666666667,
+      "deferred": 0.13958333333333334,
+      "cost_mean": 48.527274999999996,
+      "cost_per_success": 58.52535678391959
+    },
+    "budget_voi": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 22,
+      "collision_rate": 0.04583333333333333,
+      "collision_ci95": [
+        0.028943062227162843,
+        0.06857231219378636
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": false,
+      "success": 0.7979166666666667,
+      "deferred": 0.15625,
+      "cost_mean": 53.59190833333333,
+      "cost_per_success": 67.16479373368146
+    },
+    "confidence_gate": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.04
+      },
+      "n": 480,
+      "collisions": 13,
+      "collision_rate": 0.027083333333333334,
+      "collision_ci95": [
+        0.014497834757211213,
+        0.0458680620889895
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.8416666666666667,
+      "deferred": 0.13125,
+      "cost_mean": 51.16005,
+      "cost_per_success": 60.78421782178218
+    }
+  },
+  "budget": {
+    "telemachus": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.08
+      },
+      "n": 480,
+      "collisions": 1,
+      "collision_rate": 0.0020833333333333333,
+      "collision_ci95": [
+        5.2744042284693605e-05,
+        0.01155246415879794
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.475,
+      "deferred": 0.5229166666666667,
+      "cost_mean": 34.33338333333334,
+      "cost_per_success": 72.28080701754386
+    },
+    "no_reserve": {
+      "certified": true,
+      "setting": {
+        "safety_margin": 0.08
+      },
+      "n": 480,
+      "collisions": 1,
+      "collision_rate": 0.0020833333333333333,
+      "collision_ci95": [
+        5.2744042284693605e-05,
+        0.01155246415879794
+      ],
+      "guarantee_alpha": 0.03,
+      "empirical_rate_within_alpha": true,
+      "success": 0.475,
+      "deferred": 0.5229166666666667,
+      "cost_mean": 34.33949166666667,
+      "cost_per_success": 72.29366666666668
+    }
+  }
+}

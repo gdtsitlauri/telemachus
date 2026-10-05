@@ -1,0 +1,80 @@
+TELEMACHUS v5 — CPU research implementation
+
+Unzip the package, enter TELEMACHUS_V5, and use Python 3.12.
+
+1. Install the tested environment and run its tests
+
+   bash scripts/setup_cpu.sh
+
+2. Run a simulated mission using the trained acquisition policy
+
+   .venv/bin/telemachus episode --seed 110 --scenario compound --config configs/main.json --output results/local_demo.json
+
+   The main config uses the actual Sionna AWGN implementation.
+   configs/cpu_core.json uses the analytic radio model for faster development.
+   Training policy files are included; retraining is optional.
+
+3. Inspect the recorded evaluation
+
+   Open results/review.html in a browser. This is an offline viewer.
+   Raw episodes, paired summaries, frozen protocols, and plots are in:
+     results/holdout
+     results/holdout_budget30
+     results/stress
+
+   Recompute the delivery audit:
+   .venv/bin/python scripts/check_delivery.py
+
+   Development failures and previous candidates are preserved in
+   results/evaluation_history/executed_interval_candidate.zip.
+   They are not included in final holdout estimates.
+
+4. Start the local simulator API
+
+   .venv/bin/telemachus serve --port 8000
+   Open http://127.0.0.1:8000/docs
+   Endpoints: /health, /perceive, /episode, /ground-mission
+   The API operates this simulator; it does not command real hardware.
+
+5. Test the real pretrained visual/language model
+
+   .venv/bin/telemachus vlm-test --cache-dir .cache/models
+
+   This downloads the pinned public SmolVLM2-256M model (about 1 GB).
+   The package does not include those external pretrained weights.
+   The tested default keeps image splitting enabled. The faster single-view
+   variant made a landmark mistake in development and is not the default.
+   VLM grounding and physical arrival are evaluated separately.
+
+6. Generate and train a new resource policy
+
+   .venv/bin/telemachus collect-policy --workers 4 --n-seeds 40 --max-states 64 --output artifacts/new_training_data.json
+   .venv/bin/telemachus train-policy --dataset artifacts/new_training_data.json --output artifacts/new_resource_policy.json
+
+   Defaults: train seeds 2000–2027, calibration 2028–2033, test 2034–2039.
+   To reproduce the delivered forest, train from the included dataset
+   artifacts/resource_training_data_v2.json. Its collection source snapshot
+   is preserved in results/development_history/training_producer.zip.
+   Do not overwrite the delivered checkpoint or edit sources and then reuse
+   its final evaluation protocol. Model and source hashes are checked.
+
+7. Run new development experiments
+
+   .venv/bin/telemachus suite --config configs/cpu_core.json --seed-start 2400 --n-seeds 4 --methods telemachus confidence_gate budget_voi no_learning --output results/local_development --workers 4
+
+8. Create a new frozen evaluation after making changes
+
+   .venv/bin/telemachus freeze --config configs/main.json --seed-start 12000 --n-seeds 16 --methods legacy_v4 telemachus confidence_gate budget_voi no_learning --output results/new_holdout/protocol.json
+   .venv/bin/telemachus suite --config configs/main.json --split holdout --seed-start 12000 --n-seeds 16 --methods legacy_v4 telemachus confidence_gate budget_voi no_learning --protocol results/new_holdout/protocol.json --output results/new_holdout --workers 4
+
+Freeze before inspecting the new seeds. If they are used for development,
+select another untouched seed range and a new output directory.
+
+Important interpretation:
+The final v5 and frozen v4 both use a 1.2 s risk forecast; the executed
+control lasts 0.4 s. Common-core v5 baselines isolate the acquisition policy.
+Bounds are conditional on the internal distribution,
+not guarantees of model correctness, complete trajectories, or real safety.
+Resource costs are proxies, not measured energy. Actual CPU time is recorded.
+Synthetic experiments cannot establish world-first novelty or future SOTA.
+Academic paper, thesis text, and README writing are intentionally deferred.

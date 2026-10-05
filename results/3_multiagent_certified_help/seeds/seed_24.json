@@ -1,0 +1,1777 @@
+{
+  "seed": 24,
+  "methods": {
+    "ppo_local_ft": {
+      "learned": {
+        "calibration": {
+          "gate": "learned",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 25.706666946411133,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 24.110000610351562,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 23.33333396911621,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 46,
+              "failure_rate": 0.07666666666666666,
+              "queries_per_episode": 21.79166603088379,
+              "p_value": 0.02964497482343868
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 57,
+              "failure_rate": 0.095,
+              "queries_per_episode": 21.163333892822266,
+              "p_value": 0.37296976046380215
+            }
+          ],
+          "selected_theta": 0.2
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06583333015441895,
+          "queries_per_episode": 21.620832443237305,
+          "queries_per_agent_step": 0.7206944227218628,
+          "within_alpha": true
+        }
+      },
+      "entropy": {
+        "calibration": {
+          "gate": "entropy",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 59,
+              "failure_rate": 0.09833333333333333,
+              "queries_per_episode": 29.816667556762695,
+              "p_value": 0.4800970786049449
+            }
+          ],
+          "selected_theta": 0.05
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "margin": {
+        "calibration": {
+          "gate": "margin",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 124,
+              "failure_rate": 0.20666666666666667,
+              "queries_per_episode": 28.163333892822266,
+              "p_value": 0.9999999999999972
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "random": {
+        "calibration": {
+          "gate": "random",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 75,
+              "failure_rate": 0.125,
+              "queries_per_episode": 28.468334197998047,
+              "p_value": 0.9800001704251915
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "no_help": {
+        "failure_rate": 0.8324999809265137
+      },
+      "full_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 30.0
+      },
+      "oracle_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 19.308332443237305,
+        "note": "lower bound on help; uses the expert answer to decide, analysis only"
+      },
+      "training_summary": {
+        "method": "ppo_local_ft",
+        "seed": 24,
+        "final_mean_success": 0.14583333504075804,
+        "final_mean_return": -0.10953176021575928,
+        "final_mean_distance": 2.636574149131775,
+        "avg_success_forgetting": 0.25,
+        "avg_return_forgetting": 1.9681655406951903,
+        "mean_early_return": -0.30266688019037247,
+        "queries_used": 0,
+        "messages_per_episode": 0.0,
+        "memory_items": 0
+      },
+      "seconds": 24.31631374359131
+    },
+    "ppo_sparse_replay": {
+      "learned": {
+        "calibration": {
+          "gate": "learned",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 22.2450008392334,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.383333206176758,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.0483341217041,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 20.77666664123535,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 20.545000076293945,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 20.361665725708008,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 20.18166732788086,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 45,
+              "failure_rate": 0.075,
+              "queries_per_episode": 19.97833251953125,
+              "p_value": 0.02101736146723105
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 50,
+              "failure_rate": 0.08333333333333333,
+              "queries_per_episode": 19.75,
+              "p_value": 0.09568281455609365
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 66,
+              "failure_rate": 0.11,
+              "queries_per_episode": 19.47833251953125,
+              "p_value": 0.8129317711010822
+            }
+          ],
+          "selected_theta": 0.45
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.07666666805744171,
+          "queries_per_episode": 19.586666107177734,
+          "queries_per_agent_step": 0.6528888940811157,
+          "within_alpha": true
+        }
+      },
+      "entropy": {
+        "calibration": {
+          "gate": "entropy",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.55,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.6,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.65,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.7,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.75,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.8,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.85,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.969999313354492,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.9,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.72833251953125,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.058332443237305,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 27.661666870117188,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 1.05,
+              "n": 600,
+              "failures": 110,
+              "failure_rate": 0.18333333333333332,
+              "queries_per_episode": 22.979999542236328,
+              "p_value": 0.9999999997914956
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 27.247499465942383,
+          "queries_per_agent_step": 0.9082499742507935,
+          "within_alpha": true
+        }
+      },
+      "margin": {
+        "calibration": {
+          "gate": "margin",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.9,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.85,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.8,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.75,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.7,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.65,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.6,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.55,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.969999313354492,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.815000534057617,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.3700008392334,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 28.823333740234375,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 27.981666564941406,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 47,
+              "failure_rate": 0.07833333333333334,
+              "queries_per_episode": 26.553333282470703,
+              "p_value": 0.040944496807691876
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 105,
+              "failure_rate": 0.175,
+              "queries_per_episode": 24.54166603088379,
+              "p_value": 0.9999999930735323
+            }
+          ],
+          "selected_theta": 0.25
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06416666507720947,
+          "queries_per_episode": 26.060832977294922,
+          "queries_per_agent_step": 0.8686944246292114,
+          "within_alpha": true
+        }
+      },
+      "random": {
+        "calibration": {
+          "gate": "random",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 77,
+              "failure_rate": 0.12833333333333333,
+              "queries_per_episode": 28.468334197998047,
+              "p_value": 0.9894708999278571
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "no_help": {
+        "failure_rate": 0.7408333420753479
+      },
+      "full_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 30.0
+      },
+      "oracle_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 19.477500915527344,
+        "note": "lower bound on help; uses the expert answer to decide, analysis only"
+      },
+      "training_summary": {
+        "method": "ppo_sparse_replay",
+        "seed": 24,
+        "final_mean_success": 0.22222221976456544,
+        "final_mean_return": 0.946807473897934,
+        "final_mean_distance": 2.01967587073644,
+        "avg_success_forgetting": 0.15624999701976777,
+        "avg_return_forgetting": 1.2856220807880163,
+        "mean_early_return": -0.2574893782536189,
+        "queries_used": 0,
+        "messages_per_episode": 30.0,
+        "memory_items": 384
+      },
+      "seconds": 28.52116560935974
+    },
+    "ppo_sparse_ewc": {
+      "learned": {
+        "calibration": {
+          "gate": "learned",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 23.81166648864746,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 22.086666107177734,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.655000686645508,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.34166717529297,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 45,
+              "failure_rate": 0.075,
+              "queries_per_episode": 21.024999618530273,
+              "p_value": 0.02101736146723105
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 46,
+              "failure_rate": 0.07666666666666666,
+              "queries_per_episode": 20.81833267211914,
+              "p_value": 0.02964497482343868
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 47,
+              "failure_rate": 0.07833333333333334,
+              "queries_per_episode": 20.594999313354492,
+              "p_value": 0.040944496807691876
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 61,
+              "failure_rate": 0.10166666666666667,
+              "queries_per_episode": 20.260000228881836,
+              "p_value": 0.587634306734087
+            }
+          ],
+          "selected_theta": 0.35
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06499999761581421,
+          "queries_per_episode": 20.428333282470703,
+          "queries_per_agent_step": 0.6809444427490234,
+          "within_alpha": true
+        }
+      },
+      "entropy": {
+        "calibration": {
+          "gate": "entropy",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 503,
+              "failure_rate": 0.8383333333333334,
+              "queries_per_episode": 0.0716666653752327,
+              "p_value": 1.0
+            }
+          ],
+          "selected_theta": 0.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "margin": {
+        "calibration": {
+          "gate": "margin",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 503,
+              "failure_rate": 0.8383333333333334,
+              "queries_per_episode": 0.0016666667070239782,
+              "p_value": 1.0
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "random": {
+        "calibration": {
+          "gate": "random",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 76,
+              "failure_rate": 0.12666666666666668,
+              "queries_per_episode": 28.468334197998047,
+              "p_value": 0.9853931166415819
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "no_help": {
+        "failure_rate": 0.8324999809265137
+      },
+      "full_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 30.0
+      },
+      "oracle_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 19.477500915527344,
+        "note": "lower bound on help; uses the expert answer to decide, analysis only"
+      },
+      "training_summary": {
+        "method": "ppo_sparse_ewc",
+        "seed": 24,
+        "final_mean_success": 0.14670139054457346,
+        "final_mean_return": -0.2591169277826945,
+        "final_mean_distance": 2.7418981393178306,
+        "avg_success_forgetting": 0.07708333348855376,
+        "avg_return_forgetting": 1.0682637453079225,
+        "mean_early_return": -0.4011332541704178,
+        "queries_used": 0,
+        "messages_per_episode": 30.0,
+        "memory_items": 0
+      },
+      "seconds": 24.51317024230957
+    },
+    "ppo_dense_replay_active": {
+      "learned": {
+        "calibration": {
+          "gate": "learned",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 25.315000534057617,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 24.524999618530273,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 42,
+              "failure_rate": 0.07,
+              "queries_per_episode": 24.13166618347168,
+              "p_value": 0.006560859991371654
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 42,
+              "failure_rate": 0.07,
+              "queries_per_episode": 23.844999313354492,
+              "p_value": 0.006560859991371654
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 23.625,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 23.461666107177734,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 23.309999465942383,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 44,
+              "failure_rate": 0.07333333333333333,
+              "queries_per_episode": 23.16666603088379,
+              "p_value": 0.01458162826097872
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 48,
+              "failure_rate": 0.08,
+              "queries_per_episode": 23.018333435058594,
+              "p_value": 0.05540893119957137
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 52,
+              "failure_rate": 0.08666666666666667,
+              "queries_per_episode": 22.8266658782959,
+              "p_value": 0.1534081058428585
+            }
+          ],
+          "selected_theta": 0.45
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.059166666120290756,
+          "queries_per_episode": 23.045833587646484,
+          "queries_per_agent_step": 0.7681944370269775,
+          "within_alpha": true
+        }
+      },
+      "entropy": {
+        "calibration": {
+          "gate": "entropy",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.55,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.6,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.65,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.7,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.75,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.8,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.85,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.9,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 47,
+              "failure_rate": 0.07833333333333334,
+              "queries_per_episode": 29.871665954589844,
+              "p_value": 0.040944496807691876
+            },
+            {
+              "theta": 1.05,
+              "n": 600,
+              "failures": 467,
+              "failure_rate": 0.7783333333333333,
+              "queries_per_episode": 15.279999732971191,
+              "p_value": 1.0
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06083333492279053,
+          "queries_per_episode": 29.84666633605957,
+          "queries_per_agent_step": 0.9948889017105103,
+          "within_alpha": true
+        }
+      },
+      "margin": {
+        "calibration": {
+          "gate": "margin",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.9,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.85,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.8,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.75,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.7,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.65,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.6,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.55,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.985000610351562,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 44,
+              "failure_rate": 0.07333333333333333,
+              "queries_per_episode": 29.764999389648438,
+              "p_value": 0.01458162826097872
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 99,
+              "failure_rate": 0.165,
+              "queries_per_episode": 27.781665802001953,
+              "p_value": 0.9999996786692376
+            }
+          ],
+          "selected_theta": 0.25
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06333333253860474,
+          "queries_per_episode": 29.695833206176758,
+          "queries_per_agent_step": 0.9898611307144165,
+          "within_alpha": true
+        }
+      },
+      "random": {
+        "calibration": {
+          "gate": "random",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 97,
+              "failure_rate": 0.16166666666666665,
+              "queries_per_episode": 28.468334197998047,
+              "p_value": 0.9999989462130048
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "no_help": {
+        "failure_rate": 0.9925000071525574
+      },
+      "full_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 30.0
+      },
+      "oracle_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 22.7549991607666,
+        "note": "lower bound on help; uses the expert answer to decide, analysis only"
+      },
+      "training_summary": {
+        "method": "ppo_dense_replay_active",
+        "seed": 24,
+        "final_mean_success": 0.006076388914758961,
+        "final_mean_return": -1.2545379797617595,
+        "final_mean_distance": 2.935763955116272,
+        "avg_success_forgetting": 0.19479166669771075,
+        "avg_return_forgetting": 3.2277979332953692,
+        "mean_early_return": 0.7606867551803589,
+        "queries_used": 192,
+        "messages_per_episode": 60.0,
+        "memory_items": 384
+      },
+      "seconds": 24.386387825012207
+    },
+    "prometheus_v2_budgeted": {
+      "learned": {
+        "calibration": {
+          "gate": "learned",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 23.296667098999023,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.915000915527344,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 21.315000534057617,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 43,
+              "failure_rate": 0.07166666666666667,
+              "queries_per_episode": 20.93833351135254,
+              "p_value": 0.00989372907297125
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 49,
+              "failure_rate": 0.08166666666666667,
+              "queries_per_episode": 20.573333740234375,
+              "p_value": 0.0735140735676387
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 52,
+              "failure_rate": 0.08666666666666667,
+              "queries_per_episode": 20.22166633605957,
+              "p_value": 0.1534081058428585
+            }
+          ],
+          "selected_theta": 0.25
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.06333333253860474,
+          "queries_per_episode": 20.560832977294922,
+          "queries_per_agent_step": 0.6853610873222351,
+          "within_alpha": true
+        }
+      },
+      "entropy": {
+        "calibration": {
+          "gate": "entropy",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 0.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.05,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.1,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.15,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.2,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.25,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.3,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.35,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.4,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.45,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.5,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.426666259765625,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.55,
+              "n": 600,
+              "failures": 127,
+              "failure_rate": 0.21166666666666667,
+              "queries_per_episode": 26.356666564941406,
+              "p_value": 0.9999999999999998
+            }
+          ],
+          "selected_theta": 0.5
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 29.334999084472656,
+          "queries_per_agent_step": 0.9778333306312561,
+          "within_alpha": true
+        }
+      },
+      "margin": {
+        "calibration": {
+          "gate": "margin",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.9,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.85,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.8,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 29.998332977294922,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.75,
+              "n": 600,
+              "failures": 130,
+              "failure_rate": 0.21666666666666667,
+              "queries_per_episode": 26.209999084472656,
+              "p_value": 1.0
+            }
+          ],
+          "selected_theta": 0.8
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 29.9950008392334,
+          "queries_per_agent_step": 0.999833345413208,
+          "within_alpha": true
+        }
+      },
+      "random": {
+        "calibration": {
+          "gate": "random",
+          "alpha": 0.1,
+          "delta": 0.1,
+          "candidates": [
+            {
+              "theta": 1.0,
+              "n": 600,
+              "failures": 41,
+              "failure_rate": 0.06833333333333333,
+              "queries_per_episode": 30.0,
+              "p_value": 0.004249354015423579
+            },
+            {
+              "theta": 0.95,
+              "n": 600,
+              "failures": 78,
+              "failure_rate": 0.13,
+              "queries_per_episode": 28.468334197998047,
+              "p_value": 0.9925089065642129
+            }
+          ],
+          "selected_theta": 1.0
+        },
+        "certified": true,
+        "test": {
+          "n": 1200,
+          "failure_rate": 0.05249999836087227,
+          "queries_per_episode": 30.0,
+          "queries_per_agent_step": 1.0,
+          "within_alpha": true
+        }
+      },
+      "no_help": {
+        "failure_rate": 0.8266666531562805
+      },
+      "full_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 30.0
+      },
+      "oracle_help": {
+        "failure_rate": 0.05249999836087227,
+        "queries_per_episode": 19.016666412353516,
+        "note": "lower bound on help; uses the expert answer to decide, analysis only"
+      },
+      "training_summary": {
+        "method": "prometheus_v2_budgeted",
+        "seed": 24,
+        "final_mean_success": 0.1727430522441864,
+        "final_mean_return": 0.08673804501692454,
+        "final_mean_distance": 2.4389467438062034,
+        "avg_success_forgetting": 0.015625002235174178,
+        "avg_return_forgetting": 0.3603703290224075,
+        "mean_early_return": -0.16089408720533052,
+        "queries_used": 47,
+        "messages_per_episode": 30.0,
+        "memory_items": 384
+      },
+      "seconds": 15.456547737121582
+    }
+  }
+}

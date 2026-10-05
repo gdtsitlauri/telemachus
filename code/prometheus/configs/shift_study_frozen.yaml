@@ -1,0 +1,13 @@
+version: 3.1.0
+freeze_date: 2026-10-04
+study: keeping the certified help guarantee under deployment shift
+pilot_seeds_used_for_design: [0]
+heldout_seeds: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+method: prometheus_v2_budgeted
+gate: learned (DAgger, trained on the nominal world only)
+guarantee: {alpha: 0.10, delta: 0.10}
+shift: {cue_noise: 1.0, slip_prob: 0.04}   # nominal cue_noise 0.06
+online_update: {rule: "theta <- clip(theta - eta * (chunk_failure - alpha), 0, 1.01)", eta: 2.0}
+deployment: {chunks: 60, episodes_per_task_per_chunk: 10}   # 3600 shifted episodes per seed
+compared: [nominal_static, shift_static, shift_online, shift_full_help, shift_oracle]
+selection_statement: "Shift strength, eta and chunking were chosen on pilot seed 0 only and frozen before held-out seeds 5-24."

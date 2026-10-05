@@ -1,0 +1,2505 @@
+{
+  "n_splits": 50,
+  "summary": {
+    "alpha_0.3": {
+      "learned": {
+        "certified_splits": 50,
+        "within_alpha_splits": 44,
+        "cost_mean": 896.2690959666202,
+        "cost_p5_p95": [
+          816.8366481223921,
+          976.1456884561891
+        ],
+        "error_mean": 0.2690681502086231
+      },
+      "confidence": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 1082.2425591098747,
+        "cost_p5_p95": [
+          1041.3094575799723,
+          1126.7805980528512
+        ],
+        "error_mean": 0.24275382475660642
+      },
+      "agreement": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 1445.775632823366,
+        "cost_p5_p95": [
+          1413.3165507649514,
+          1476.1512517385258
+        ],
+        "error_mean": 0.06470097357440889
+      },
+      "fixed_certified": {
+        "stages": {
+          "EXPERT": 50
+        },
+        "cost_mean": 1500.0,
+        "error_mean": 0.0,
+        "within_alpha_splits": 50
+      },
+      "learned_cheaper_than_confidence": "50/50",
+      "confidence_over_learned_cost_ratio": {
+        "mean": 1.2109927782881917,
+        "p5_p95": [
+          1.1299513348992725,
+          1.3295505803514698
+        ]
+      },
+      "learned_cheaper_than_fixed_certified": "50/50"
+    },
+    "alpha_0.2": {
+      "learned": {
+        "certified_splits": 50,
+        "within_alpha_splits": 45,
+        "cost_mean": 1101.1935465924896,
+        "cost_p5_p95": [
+          1027.5663421418637,
+          1185.7155771905425
+        ],
+        "error_mean": 0.1741863699582754
+      },
+      "confidence": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 1329.9544089012518,
+        "cost_p5_p95": [
+          1281.7465229485397,
+          1446.5053546592487
+        ],
+        "error_mean": 0.15752433936022253
+      },
+      "agreement": {
+        "certified_splits": 50,
+        "within_alpha_splits": 50,
+        "cost_mean": 1445.775632823366,
+        "cost_p5_p95": [
+          1413.3165507649514,
+          1476.1512517385258
+        ],
+        "error_mean": 0.06470097357440889
+      },
+      "fixed_certified": {
+        "stages": {
+          "EXPERT": 50
+        },
+        "cost_mean": 1500.0,
+        "error_mean": 0.0,
+        "within_alpha_splits": 50
+      },
+      "learned_cheaper_than_confidence": "50/50",
+      "confidence_over_learned_cost_ratio": {
+        "mean": 1.2094510395619518,
+        "p5_p95": [
+          1.130593963799904,
+          1.3049909668437991
+        ]
+      },
+      "learned_cheaper_than_fixed_certified": "50/50"
+    }
+  },
+  "runs": [
+    {
+      "split": 0,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.3379694019471488,
+        "cost": 761.9499304589708,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.25312934631432543,
+        "cost": 1069.1780250347706,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07788595271210014,
+        "cost": 1432.9165507649514,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 0,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.23087621696801114,
+        "cost": 982.6968011126564,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.16133518776077885,
+        "cost": 1323.3324061196106,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07788595271210014,
+        "cost": 1432.9165507649514,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 1,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 899.8915159944368,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.26564673157162727,
+        "cost": 1084.318497913769,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1492.1265646731572,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 1,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18776077885952713,
+        "cost": 1114.9916550764951,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16689847009735745,
+        "cost": 1339.8817802503477,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1492.1265646731572,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 2,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 880.2739916550765,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23783031988873435,
+        "cost": 1070.7065368567455,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0584144645340751,
+        "cost": 1453.6884561891516,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 2,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1780250347705146,
+        "cost": 1100.7162726008346,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15438108484005564,
+        "cost": 1324.827538247566,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0584144645340751,
+        "cost": 1453.6884561891516,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 3,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26286509040333794,
+        "cost": 900.191933240612,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23087621696801114,
+        "cost": 1081.9360222531293,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1430.6954102920722,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 3,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16133518776077885,
+        "cost": 1120.2726008344923,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15159944367176634,
+        "cost": 1304.2656467315717,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1430.6954102920722,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 4,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.29207232267037553,
+        "cost": 859.0458970792768,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2545201668984701,
+        "cost": 1078.970792767733,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1450.9429763560502,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 4,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18636995827538247,
+        "cost": 1075.450625869263,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16550764951321278,
+        "cost": 1336.2072322670376,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1450.9429763560502,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 5,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26425591098748263,
+        "cost": 909.9165507649514,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.18219749652294853,
+        "cost": 1217.720445062587,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1449.8122392211405,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 5,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1780250347705146,
+        "cost": 1095.6940194714882,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1070931849791377,
+        "cost": 1465.9304589707929,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1449.8122392211405,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 6,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 882.518776077886,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25591098748261476,
+        "cost": 1071.8623087621697,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1437.2336578581362,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 6,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18497913769123783,
+        "cost": 1088.5146036161336,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16968011126564672,
+        "cost": 1329.5104311543812,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1437.2336578581362,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 7,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.3379694019471488,
+        "cost": 788.8970792767733,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.24200278164116829,
+        "cost": 1089.5744089012517,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1450.7037552155773,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 7,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1808066759388039,
+        "cost": 1108.066759388039,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16133518776077885,
+        "cost": 1314.424200278164,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1450.7037552155773,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 8,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26425591098748263,
+        "cost": 931.5688456189151,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25034770514603616,
+        "cost": 1085.1321279554938,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07232267037552156,
+        "cost": 1469.8887343532683,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 8,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.15577190542420027,
+        "cost": 1169.778859527121,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 1327.7190542420028,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07232267037552156,
+        "cost": 1469.8887343532683,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 9,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26286509040333794,
+        "cost": 901.0820584144645,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2364394993045897,
+        "cost": 1080.1599443671766,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1413.123783031989,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 9,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18915159944367177,
+        "cost": 1057.1196105702365,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16828929068150209,
+        "cost": 1308.883171070932,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1413.123783031989,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 10,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26286509040333794,
+        "cost": 885.191933240612,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25312934631432543,
+        "cost": 1051.6509040333797,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1453.2002781641168,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 10,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17524339360222532,
+        "cost": 1072.4408901251738,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16968011126564672,
+        "cost": 1305.8011126564672,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1453.2002781641168,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 11,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.29763560500695413,
+        "cost": 811.029207232267,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24756606397774686,
+        "cost": 1039.3379694019472,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0737134909596662,
+        "cost": 1396.3643949930458,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 11,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.20584144645340752,
+        "cost": 991.8178025034771,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.16133518776077885,
+        "cost": 1280.0598052851183,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0737134909596662,
+        "cost": 1396.3643949930458,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 12,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.282336578581363,
+        "cost": 841.0166898470097,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25591098748261476,
+        "cost": 1043.7190542420028,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1432.7162726008346,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 12,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17663421418636996,
+        "cost": 1055.575799721836,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16828929068150209,
+        "cost": 1284.922114047288,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1432.7162726008346,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 13,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2517385257301808,
+        "cost": 929.134909596662,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24895688456189152,
+        "cost": 1071.616133518776,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07232267037552156,
+        "cost": 1442.3643949930458,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 13,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1627260083449235,
+        "cost": 1126.8428372739916,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16133518776077885,
+        "cost": 1305.4561891515993,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07232267037552156,
+        "cost": 1442.3643949930458,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 14,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2573018080667594,
+        "cost": 967.2197496522948,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2336578581363004,
+        "cost": 1121.5062586926288,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1470.7621696801114,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 14,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16968011126564672,
+        "cost": 1142.778859527121,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14881780250347706,
+        "cost": 1370.769123783032,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1470.7621696801114,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 15,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2698191933240612,
+        "cost": 894.1821974965229,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2364394993045897,
+        "cost": 1064.6495132127955,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1434.7566063977747,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 15,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18636995827538247,
+        "cost": 1077.164116828929,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1322.8915159944368,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1434.7566063977747,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 16,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2809457579972184,
+        "cost": 855.5340751043116,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23504867872044508,
+        "cost": 1077.4394993045896,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1430.5813630041725,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 16,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17385257301808066,
+        "cost": 1076.190542420028,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1599443671766342,
+        "cost": 1309.7065368567455,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1430.5813630041725,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 17,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.282336578581363,
+        "cost": 879.2044506258693,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2545201668984701,
+        "cost": 1085.5396383866482,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07510431154381085,
+        "cost": 1434.9833101529903,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 17,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.20305980528511822,
+        "cost": 1044.3212795549375,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.17107093184979139,
+        "cost": 1297.3143254520166,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07510431154381085,
+        "cost": 1434.9833101529903,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 18,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2670375521557719,
+        "cost": 895.0737134909597,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25312934631432543,
+        "cost": 1054.2865090403338,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0584144645340751,
+        "cost": 1450.076495132128,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 18,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.14464534075104313,
+        "cost": 1166.1752433936022,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1599443671766342,
+        "cost": 1314.250347705146,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.0584144645340751,
+        "cost": 1450.076495132128,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 19,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.23087621696801114,
+        "cost": 967.5146036161335,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.22531293463143254,
+        "cost": 1143.5257301808067,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05006954102920723,
+        "cost": 1462.3588317107094,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 19,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.13351877607788595,
+        "cost": 1195.4353268428372,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.11404728789986092,
+        "cost": 1498.134909596662,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05006954102920723,
+        "cost": 1462.3588317107094,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 20,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 897.710709318498,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24617524339360222,
+        "cost": 1068.1210013908205,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1421.4297635605008,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 20,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1780250347705146,
+        "cost": 1094.1961057023643,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1307.4394993045896,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1421.4297635605008,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 21,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2906815020862309,
+        "cost": 823.9346314325452,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24200278164116829,
+        "cost": 1045.1070931849792,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.055632823365785816,
+        "cost": 1450.6286509040333,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 21,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16411682892906815,
+        "cost": 1086.4965229485397,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1627260083449235,
+        "cost": 1283.808066759388,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.055632823365785816,
+        "cost": 1450.6286509040333,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 22,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.24478442280945759,
+        "cost": 911.4061196105703,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23783031988873435,
+        "cost": 1065.5438108484007,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05146036161335188,
+        "cost": 1448.4394993045896,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 22,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.15577190542420027,
+        "cost": 1108.9401947148817,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1168289290681502,
+        "cost": 1456.6801112656467,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05146036161335188,
+        "cost": 1448.4394993045896,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 23,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.30180806675938804,
+        "cost": 840.2795549374131,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.25591098748261476,
+        "cost": 1076.681502086231,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.055632823365785816,
+        "cost": 1459.7413073713492,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 23,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.19610570236439498,
+        "cost": 1070.278164116829,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16689847009735745,
+        "cost": 1328.471488178025,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.055632823365785816,
+        "cost": 1459.7413073713492,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 24,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2670375521557719,
+        "cost": 903.6662030598053,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23783031988873435,
+        "cost": 1098.6397774687066,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1445.3198887343533,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 24,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17246175243393602,
+        "cost": 1106.7426981919332,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 1320.0681502086231,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1445.3198887343533,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 25,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.30180806675938804,
+        "cost": 838.4506258692629,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.2517385257301808,
+        "cost": 1074.0904033379693,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07510431154381085,
+        "cost": 1443.0681502086231,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 25,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.21696801112656466,
+        "cost": 1020.3838664812239,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1320.8817802503477,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07510431154381085,
+        "cost": 1443.0681502086231,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 26,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.22531293463143254,
+        "cost": 964.278164116829,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23922114047287898,
+        "cost": 1094.5410292072322,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1425.9165507649514,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 26,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.15577190542420027,
+        "cost": 1118.182197496523,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1627260083449235,
+        "cost": 1322.8150208623088,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1425.9165507649514,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 27,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2670375521557719,
+        "cost": 870.8456189151599,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2517385257301808,
+        "cost": 1033.7232267037552,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1432.6648122392212,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 27,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17385257301808066,
+        "cost": 1073.3101529902642,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.17663421418636996,
+        "cost": 1272.4923504867872,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1432.6648122392212,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 28,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.23504867872044508,
+        "cost": 969.134909596662,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24617524339360222,
+        "cost": 1093.0500695410292,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1430.0848400556329,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 28,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.14464534075104313,
+        "cost": 1186.9986091794158,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16689847009735745,
+        "cost": 1308.4756606397775,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1430.0848400556329,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 29,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26564673157162727,
+        "cost": 905.5855354659249,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24617524339360222,
+        "cost": 1076.6175243393602,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1450.8956884561892,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 29,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17385257301808066,
+        "cost": 1113.1808066759388,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.17385257301808066,
+        "cost": 1304.307371349096,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1450.8956884561892,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 30,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2517385257301808,
+        "cost": 961.8233657858136,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.22809457579972184,
+        "cost": 1131.095966620306,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1454.9054242002783,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 30,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17107093184979139,
+        "cost": 1133.5910987482614,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1502086230876217,
+        "cost": 1378.7468706536856,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06536856745479833,
+        "cost": 1454.9054242002783,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 31,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2336578581363004,
+        "cost": 984.7760778859528,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24061196105702365,
+        "cost": 1115.2642559109875,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1432.4575799721836,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 31,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16411682892906815,
+        "cost": 1136.076495132128,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1353.9346314325453,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1432.4575799721836,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 32,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 920.4297635605006,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25034770514603616,
+        "cost": 1071.461752433936,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1445.780250347705,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 32,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.18497913769123783,
+        "cost": 1110.5897079276774,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1320.0431154381085,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.07093184979137691,
+        "cost": 1445.780250347705,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 33,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.25312934631432543,
+        "cost": 879.1070931849791,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2239221140472879,
+        "cost": 1082.84561891516,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1410.9304589707929,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 33,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1627260083449235,
+        "cost": 1086.191933240612,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.14603616133518776,
+        "cost": 1315.356050069541,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1410.9304589707929,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 34,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2795549374130737,
+        "cost": 890.2336578581363,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24478442280945759,
+        "cost": 1103.9360222531293,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1444.8720445062586,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 34,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.19888734353268428,
+        "cost": 1059.9986091794158,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1355.7357440890125,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1444.8720445062586,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 35,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.22253129346314326,
+        "cost": 980.9930458970792,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.22809457579972184,
+        "cost": 1094.0222531293464,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1468.152990264256,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 35,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.14325452016689846,
+        "cost": 1184.1474269819194,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1168289290681502,
+        "cost": 1434.0695410292071,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1468.152990264256,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 36,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2517385257301808,
+        "cost": 903.2545201668985,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24339360222531292,
+        "cost": 1054.9137691237831,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1426.2628650904032,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 36,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16133518776077885,
+        "cost": 1109.751043115438,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15855354659248957,
+        "cost": 1298.3143254520166,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1426.2628650904032,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 37,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.20166898470097358,
+        "cost": 1058.0611961057023,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.25312934631432543,
+        "cost": 1070.682892906815,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05006954102920723,
+        "cost": 1494.3198887343533,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 37,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.12378303198887343,
+        "cost": 1249.1988873435328,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1331.4061196105702,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05006954102920723,
+        "cost": 1494.3198887343533,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 38,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2336578581363004,
+        "cost": 970.221140472879,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24895688456189152,
+        "cost": 1101.2322670375522,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.059805285118219746,
+        "cost": 1454.0598052851183,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 38,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.15438108484005564,
+        "cost": 1142.4784422809457,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.17524339360222532,
+        "cost": 1311.0125173852573,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.059805285118219746,
+        "cost": 1454.0598052851183,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 39,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2809457579972184,
+        "cost": 865.8539638386649,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2573018080667594,
+        "cost": 1017.3143254520166,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1445.549374130737,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 39,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.19749652294853964,
+        "cost": 1041.0890125173853,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.17663421418636996,
+        "cost": 1276.4311543810848,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1445.549374130737,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 40,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.25312934631432543,
+        "cost": 926.461752433936,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.23226703755215578,
+        "cost": 1093.201668984701,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1451.172461752434,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 40,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16411682892906815,
+        "cost": 1118.720445062587,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1502086230876217,
+        "cost": 1337.2267037552156,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1451.172461752434,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 41,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26425591098748263,
+        "cost": 902.2280945757997,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24339360222531292,
+        "cost": 1076.1279554937414,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1457.5841446453408,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 41,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.15577190542420027,
+        "cost": 1149.6495132127955,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16689847009735745,
+        "cost": 1324.0639777468707,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05702364394993046,
+        "cost": 1457.5841446453408,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 42,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.28929068150208626,
+        "cost": 867.6884561891516,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24756606397774686,
+        "cost": 1092.346314325452,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1452.8720445062586,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 42,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16968011126564672,
+        "cost": 1122.452016689847,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1338.9860917941585,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06954102920723226,
+        "cost": 1452.8720445062586,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 43,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.3004172461752434,
+        "cost": 853.0625869262865,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.23783031988873435,
+        "cost": 1086.4951321279555,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1447.652294853964,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 43,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.19749652294853964,
+        "cost": 1066.9304589707929,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 1329.9137691237831,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1447.652294853964,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 44,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.282336578581363,
+        "cost": 889.4659248956884,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.2364394993045897,
+        "cost": 1099.7607788595271,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05146036161335188,
+        "cost": 1480.5605006954104,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 44,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17663421418636996,
+        "cost": 1099.1599443671766,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 1334.7649513212796,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.05146036161335188,
+        "cost": 1480.5605006954104,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 45,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 895.6550764951321,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24617524339360222,
+        "cost": 1066.9485396383866,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.061196105702364396,
+        "cost": 1459.9304589707929,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 45,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16828929068150209,
+        "cost": 1110.8692628650904,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1294.5938803894298,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.061196105702364396,
+        "cost": 1459.9304589707929,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 46,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.2670375521557719,
+        "cost": 872.961057023644,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24061196105702365,
+        "cost": 1086.798331015299,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1413.5521557719055,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 46,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.16411682892906815,
+        "cost": 1082.3198887343533,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1319.7607788595271,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06675938803894298,
+        "cost": 1413.5521557719055,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 47,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26564673157162727,
+        "cost": 903.9123783031989,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24617524339360222,
+        "cost": 1103.8789986091795,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1448.7190542420028,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 47,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.1780250347705146,
+        "cost": 1082.876216968011,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.16411682892906815,
+        "cost": 1327.8734353268428,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06397774687065369,
+        "cost": 1448.7190542420028,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 48,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.30598052851182195,
+        "cost": 824.3783031988874,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.2364394993045897,
+        "cost": 1087.260083449235,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1455.6175243393602,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 48,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.20305980528511822,
+        "cost": 1036.344923504868,
+        "within_alpha": false
+      },
+      "confidence": {
+        "error": 0.1571627260083449,
+        "cost": 1313.865090403338,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06815020862308763,
+        "cost": 1455.6175243393602,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 49,
+      "alpha": 0.3,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.26842837273991654,
+        "cost": 897.1571627260083,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.24478442280945759,
+        "cost": 1067.5952712100138,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1446.344923504868,
+        "within_alpha": true
+      }
+    },
+    {
+      "split": 49,
+      "alpha": 0.2,
+      "fixed_certified": {
+        "stage": "EXPERT",
+        "error": 0.0,
+        "cost": 1500.0
+      },
+      "learned": {
+        "error": 0.17385257301808066,
+        "cost": 1096.4881780250348,
+        "within_alpha": true
+      },
+      "confidence": {
+        "error": 0.15299026425591097,
+        "cost": 1311.894297635605,
+        "within_alpha": true
+      },
+      "agreement": {
+        "error": 0.06258692628650904,
+        "cost": 1446.344923504868,
+        "within_alpha": true
+      }
+    }
+  ]
+}
