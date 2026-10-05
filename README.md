@@ -159,6 +159,14 @@ Then, from this folder: `python analysis/gate_operating_point.py`, `python analy
 The MSc thesis (in Greek) and the defence slides built from these results are not part of this public
 repository.
 
+## Status and what remains
+
+The study is complete: every result above is final and was produced under frozen protocols. Left for future
+work:
+- models larger than 3B (a 7B 4-bit run fits a free Colab T4);
+- a real robot or real-world navigation data;
+- energy or money costs instead of the declared resource proxy.
+
 ## Protocol discipline
 
 Every study was frozen before its held-out data were run: methods, seeds, alpha, delta, candidate grids and (for
@@ -178,3 +186,8 @@ it did so once, for seed 7 at eta = 0.25 (kept as `seed_07_bisection_infeasible.
 the grid solver now in `hp_online.py`. Any value bisection returned is feasible, so no guarantee was affected. The current solver returns the larger of the grid and bisection values. It reproduces every stored alpha* of the
 primary run and of eta = 0.25 exactly. For eta = 1.0, which was run with bisection only, it differs on 5 seeds by
 less than 2e-5; use `solve_alpha_star_bisection` to reproduce that run exactly.
+
+## Citation and license
+
+George David Tsitlauri, University of Thessaly, 2026. MIT License (`LICENSE`); citation metadata in
+`CITATION.cff`.
