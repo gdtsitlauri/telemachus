@@ -78,6 +78,44 @@ Theorem B, alpha* is computed **before** deployment as the largest value with
 `alpha* + (s_f - s_1)/(eta K) + 1/K + log(K/delta)/(u K) <= alpha` (u depends on alpha*). This needs only alpha,
 delta, n, K, eta, the starting control s_1 (the Learn-then-Test certificate) and the declared fallback risk p0.
 
+## Proposition 2 (lower bound for any online rule)
+
+How much slack between alpha and the fallback risk p0 is unavoidable? Let F(p0) hold with p0 <= 1/4, and write
+`N = nK` and `v = p0(1 - p0)`.
+
+**Claim.** For every online rule, there is a world satisfying F(p0) in which the realised failure rate exceeds
+alpha with probability greater than delta whenever
+
+    alpha  <  p0 + z_{1-delta} * sqrt(v / N) - 1/N,
+
+where z is the standard normal quantile.
+
+*Proof.* In the adversarial world, every non-fallback episode fails, and every fallback episode fails independently
+with probability exactly p0. Each episode then fails with probability at least p0, whatever the rule does, so the
+failure count stochastically dominates X ~ Binomial(N, p0). Slud's inequality (Slud 1977) gives
+`P(X >= k) >= 1 - Phi((k - N p0) / sqrt(N v))`. It requires p0 <= 1/4 and N p0 <= k <= N. With
+`k = floor(alpha N) + 1`, the right-hand side exceeds delta under the stated condition. QED.
+
+**Comparison with Theorem B.** The lower bound requires a gap `alpha - p0 >= z_{1-delta} sqrt(v / N)` (minus 1/N).
+Theorem B certifies a larger gap. In the multi-agent study the smallest alpha it certifies is 9.80%, against a lower
+bound of 8.41%. Measured from p0 = 8%, Theorem B's gap is about 4.4 times the lower bound's gap. The difference
+comes from the union bound over excursions (the log(K/delta) term) and the O(1/K) control terms.
+
+Numerically (`analysis/theorem_b_optimality.py`, `results/theorem_b_optimality.json`), in the multi-agent setting
+(p0 = 0.08, n = 6, eta = 0.5, s_f - s_1 = 0.45, delta = 0.10):
+
+| K | best possible alpha (lower bound) | smallest alpha Theorem B certifies | ratio of gaps to p0 |
+|---|---|---|---|
+| 100 | 0.0942 | 0.1632 | 5.9 |
+| 1,000 | 0.0845 | 0.1000 | 4.5 |
+| 1,200 (study) | 0.0841 | 0.0980 | 4.4 |
+| 10,000 | 0.0814 | 0.0859 | 4.1 |
+| 100,000 | 0.0804 | 0.0819 | 4.2 |
+
+- A simulation of the always-fallback rule in the adversarial world confirms the lower bound: it exceeds alpha_L
+  with probability 0.101 (target delta = 0.10).
+- The study's alpha = 0.10 was close to Theorem B's feasibility edge (0.098) at K = 1,200.
+
 ## Corollary C (learning while guaranteed)
 
 Theorems A and B place no condition on the policy used while `s_k < s_f`. It may be any predictable policy, that

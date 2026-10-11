@@ -1,0 +1,61 @@
+{
+  "setting": {
+    "p0": 0.08,
+    "n": 6,
+    "K": 1200,
+    "eta": 0.5,
+    "s_f_minus_s_1": 0.45,
+    "delta": 0.1,
+    "alpha_study": 0.1
+  },
+  "lower_bound_alpha": 0.08409740359785971,
+  "theorem_b_min_alpha": 0.0980498142492658,
+  "theorem_b_argmin_alpha_star": 0.08692991523270187,
+  "gap_ratio_(alphaB-p0)/(alphaL-p0)": 4.405183384593646,
+  "simulated_P(rate>alpha_L)_always_fallback": 0.10092,
+  "simulated_P(rate>alpha_L-0.001)_always_fallback": 0.164815,
+  "sweep_K": [
+    {
+      "K": 100,
+      "alpha_lower": 0.09419382242121706,
+      "alpha_theorem_b": 0.1631926171358595,
+      "ratio_of_gaps": 5.861184863881516
+    },
+    {
+      "K": 300,
+      "alpha_lower": 0.08819480719571941,
+      "alpha_theorem_b": 0.12081724367196611,
+      "ratio_of_gaps": 4.980866870582038
+    },
+    {
+      "K": 1000,
+      "alpha_lower": 0.08448848075550118,
+      "alpha_theorem_b": 0.10000209129110552,
+      "ratio_of_gaps": 4.456316598125217
+    },
+    {
+      "K": 3000,
+      "alpha_lower": 0.08259142557244106,
+      "alpha_theorem_b": 0.09096051150402266,
+      "ratio_of_gaps": 4.2295297308879
+    },
+    {
+      "K": 10000,
+      "alpha_lower": 0.08141938224212171,
+      "alpha_theorem_b": 0.08588837085570895,
+      "ratio_of_gaps": 4.148544825322705
+    },
+    {
+      "K": 30000,
+      "alpha_lower": 0.08081948071957194,
+      "alpha_theorem_b": 0.08341491543542262,
+      "ratio_of_gaps": 4.167169957587792
+    },
+    {
+      "K": 100000,
+      "alpha_lower": 0.08044884807555013,
+      "alpha_theorem_b": 0.0819060855365746,
+      "ratio_of_gaps": 4.2466162615010195
+    }
+  ]
+}

@@ -278,3 +278,22 @@ The gap between these best-threshold help rates and the certified expert rates i
 | learning gate | 0.092 | 0.092 | 19/19 | 21.3 | 21.1 | 0.921 |
 
 Learning minus frozen help queries per episode (paired by seed): -1.10, fewer on 18/19 seeds, Wilcoxon p = 7.6e-06. Mechanism: fewer chunks in the full-help fallback (0.029 vs 0.094); the final gate's AUC did not improve. On the design pilot (seed 0) no saving was seen.
+
+## 10. Lower bound for any online rule (Proposition 2, docs/online_guarantee.md)
+
+Multi-agent setting: p0 = 0.08, n = 6 episodes per chunk, eta = 0.5, s_f - s_1 = 0.45, delta = 0.10. The lower bound
+alpha_L = p0 + z_{1-delta} sqrt(p0(1-p0)/(nK)) holds for every online rule (Slud's inequality, which needs
+p0 <= 1/4 and N p0 <= k <= N). alpha_B is the smallest alpha that Theorem B certifies. Source:
+`analysis/theorem_b_optimality.py`, `results/theorem_b_optimality.json`.
+
+| K | lower bound alpha_L | Theorem B alpha_B | (alpha_B - p0) / (alpha_L - p0) |
+|---|---|---|---|
+| 100 | 0.0942 | 0.1632 | 5.9 |
+| 1,000 | 0.0845 | 0.1000 | 4.5 |
+| 1,200 (study) | 0.0841 | 0.0980 | 4.4 |
+| 10,000 | 0.0814 | 0.0859 | 4.1 |
+| 100,000 | 0.0804 | 0.0819 | 4.2 |
+
+- Simulation of the always-fallback rule in the adversarial world: it exceeds alpha_L with probability 0.101 (target
+  0.10).
+- The study's alpha = 0.10 is close to Theorem B's feasibility edge (0.098) at K = 1,200.

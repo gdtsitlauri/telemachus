@@ -61,6 +61,10 @@ All numbers are on seeds / questions / scenes never used for design or calibrati
    that is never clipped on its safe side give realised failure <= alpha over a finite horizon with probability
    >= 1 - delta, under arbitrary shift. Theorem A, the zero-risk-fallback case, is a special case of Conformal
    Decision Theory (Lekeufack et al. 2024).
+   **Proposition 2 (lower bound).** No online rule can guarantee a realised failure rate below
+   p0 + z_{1-delta} sqrt(p0(1-p0)/(nK)) in every world allowed by the fallback assumption (Slud's inequality; needs
+   p0 <= 1/4). In the multi-agent study this bound is 8.41%, while Theorem B certifies down to 9.80%. Measured from
+   p0 = 8%, Theorem B's gap is about 4.4 times the lower bound's gap (`tables/RESULTS.md`, section 10).
 5. **Learning while guaranteed (Corollary C).** The guarantee places no condition on the agent's policy outside
    the fallback, so the agent may keep learning during deployment. In the multi-agent shift study, the help gate
    was retrained 11 times per deployment, only from labels it could actually see (the expert's answer when it
@@ -98,11 +102,12 @@ All numbers are on seeds / questions / scenes never used for design or calibrati
 TELEMACHUS/
   README.md, README_GR.md, LICENSE (MIT), CITATION.cff
   SUMMARY_FOR_SUPERVISOR_GR.txt   plain-language summary of the whole study (Greek)
-  docs/online_guarantee.md        Theorems A and B with proofs, Corollary C (learning while guaranteed)
+  docs/online_guarantee.md        Theorems A and B with proofs, Proposition 2 (lower bound), Corollary C
   docs/when_gates_pay.md          Proposition 1: help needed at risk alpha from one ROC point
   docs/related_work.md            comparison with prior work: what is and is not new
   analysis/make_figures.py        builds figures/ and tables/ from results/ only
   analysis/repro_check.py         reruns parts of every study from code/ and compares with results/
+  analysis/theorem_b_optimality.py  Proposition 2: lower bound versus Theorem B
   figures/                        fig0 (framework diagram), fig1..fig6 (png + pdf)
   tables/RESULTS.md               every number quoted above
   environment/                    exact package versions used (CPU and GPU environments)
