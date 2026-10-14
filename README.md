@@ -100,7 +100,7 @@ All numbers are on seeds / questions / scenes never used for design or calibrati
 
 ```
 TELEMACHUS/
-  README.md, README_GR.md, LICENSE (MIT), CITATION.cff
+  README.md, LICENSE (MIT), CITATION.cff
   SUMMARY_FOR_SUPERVISOR_GR.txt   plain-language summary of the whole study (Greek)
   docs/online_guarantee.md        Theorems A and B with proofs, Proposition 2 (lower bound), Corollary C
   docs/when_gates_pay.md          Proposition 1: help needed at risk alpha from one ROC point
