@@ -193,5 +193,5 @@ less than 2e-5; use `solve_alpha_star_bisection` to reproduce that run exactly.
 
 ## Citation and license
 
-George David Tsitlauri, University of Thessaly, 2026. MIT License (`LICENSE`); citation metadata in
-`CITATION.cff`.
+George David Tsitlauri, University of Thessaly, 2026. MSc thesis, supervised by Georgios Dimitriou, with whom the
+research was carried out in the same research lab. MIT License (`LICENSE`); citation metadata in `CITATION.cff`.
