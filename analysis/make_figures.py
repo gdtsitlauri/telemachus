@@ -274,7 +274,7 @@ fig, ax = plt.subplots(figsize=(7.2, 2.8))
 x = np.arange(len(pts))
 ax.bar(x - .2, [p[1] for p in pts], .4, color=COL["confidence"], label="model self-confidence")
 ax.bar(x + .2, [p[2] for p in pts], .4, color=COL["learned"], label="learned gate")
-ax.axhline(.5, ls=":", c="grey", lw=.8); ax.set_ylim(0, 1.18); ax.set_xticks(x); ax.set_xticklabels([p[0] for p in pts], fontsize=7)
+ax.axhline(.5, ls=":", c="grey", lw=.8); ax.set_ylim(0, 1.18); ax.set_xticks(x); ax.set_xticklabels([p[0].replace("multi-agent help", "multi-agent") for p in pts], fontsize=7)
 ax.set_ylabel("AUC (predicting a correct decision)"); ax.legend(frameon=False, fontsize=7, loc="upper center", ncol=2)
 save(fig, "fig6_when_learned_gate_pays")
 md += ["", "## 7. When does a learned gate pay off? (test AUC, predicting a correct decision)", "",
