@@ -193,5 +193,8 @@ less than 2e-5; use `solve_alpha_star_bisection` to reproduce that run exactly.
 
 ## Citation and license
 
-George David Tsitlauri, University of Thessaly, 2026. MSc thesis, supervised by Georgios Dimitriou, with whom the
-research was carried out in the same research lab. MIT License (`LICENSE`); citation metadata in `CITATION.cff`.
+George David Tsitlauri and Georgios Dimitriou (Assistant Professor, supervisor), Computer Architecture,
+Compilers and System Security Laboratory (CACS Lab), Department of Informatics and Telecommunications,
+University of Thessaly, Lamia, Greece, 2026. MSc thesis research, carried out together in the CACS Lab
+under the supervision of Assistant Prof. Georgios Dimitriou, the lab's director. MIT License (`LICENSE`); citation
+metadata in `CITATION.cff`.
