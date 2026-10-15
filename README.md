@@ -195,5 +195,5 @@ less than 2e-5; use `solve_alpha_star_bisection` to reproduce that run exactly.
 
 George David Tsitlauri and Georgios Dimitriou, Department of Informatics and Telecommunications, University of
 Thessaly, Lamia, Greece, 2026.
-MSc thesis research, supervised by Assistant Prof. Georgios Dimitriou. MIT License (`LICENSE`); citation metadata in
+MSc thesis research, supervised by Georgios Dimitriou. MIT License (`LICENSE`); citation metadata in
 `CITATION.cff`.
